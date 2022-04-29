@@ -11,12 +11,7 @@
   },
   "default_locale": "en",
   "background": {
-    "service_worker": "src/bg/background.html"
-  },
-  "browser_action": {
-    "default_icon": "icons/16x16.png",
-    "default_title": "FunnelExtension",
-    "default_popup": "src/popup/index.html"
+    "service_worker": "src/bg/background.js"
   },
   "content_scripts": [
     {

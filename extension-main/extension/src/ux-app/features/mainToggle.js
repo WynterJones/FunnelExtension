@@ -1,18 +1,18 @@
-chrome.extension.sendMessage({}, (response) => {
+chrome.runtime.sendMessage({}, (response) => {
   const readyStateCheckInterval = setInterval(() => {
     if (document.readyState === "complete") {
       clearInterval(readyStateCheckInterval);
 
       // create and add button to page
-      //     const toggleButton = document.createElement("div");
-      //     toggleButton.innerHTML = `<div id="tfe_togglebutton">
+      // const toggleButton = document.createElement("div");
+      // toggleButton.innerHTML = `<div id="tfe_togglebutton">
       //     <div><span id="tfe_toggleVanilla">Vanilla <strong class="tfe_togglebutton_progress"></strong></span></div>
       //     <div><span id="tfe_toggleEnhanced">Enhanced  <strong class="tfe_togglebutton_progress"></strong></span></div>
       //   </div>
       //   <div id="tfe_togglebutton_freebie_badge">
       //   <a href="https://funnelextension.com" target="_blank">Powered by TheFunnelExtension.com</a>
       // </div>`;
-      //     document.querySelector("body").appendChild(toggleButton);
+      // document.querySelector("body").appendChild(toggleButton);
 
       // hide if frontend cf page or login page
       if (

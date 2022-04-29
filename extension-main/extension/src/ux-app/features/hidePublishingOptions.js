@@ -1,4 +1,4 @@
-chrome.extension.sendMessage({}, (response) => {
+chrome.runtime.sendMessage({}, (response) => {
   const readyStateCheckInterval = setInterval(() => {
     if (document.readyState === "complete") {
       clearInterval(readyStateCheckInterval);
