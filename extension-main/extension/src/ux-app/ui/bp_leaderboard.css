@@ -1,0 +1,111 @@
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #1e242b !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4 {
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div {
+  color: #fff !important;
+}
+
+#leaderboards-submit-button {
+  color: #fff !important;
+  background: #32485a !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #161b20 !important;
+}
+
+body .layout-sidenav .ui.inverted.list {
+  background: #0e1114 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4 {
+  color: #fff !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4
+  > i {
+  display: none !important;
+}
+
+#affiliate-leaderboards-table,
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div
+  > form {
+  padding: 15px !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+  color: #000 !important;
+  margin-top: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.ui.header.layout-topnav.top.attached.dark.blue.background.no-margin
+  > div.extra.content.ui.spaced.right.middle.aligned {
+  display: none !important;
+}
+
+#lumen-two-body 
+  > div.ui.layout.container 
+  > div.layout-grid.ui.grid.no-margin 
+  > div.layout-main-content.column.white.background.nine.wide 
+  > div 
+  > form {
+  background: #0E1114 !important;
+}
+
+#lumen-two-body 
+  > div.ui.layout.container 
+  > div.layout-grid.ui.grid.no-margin 
+  > div.layout-main-content.column.white.background.nine.wide 
+  > div 
+  > form 
+  > div.two.fields 
+  > div 
+  > label {
+  color: #fff !important;
+}
+
+#lumen-two-body 
+  > div.ui.layout.container 
+  > div.layout-grid.ui.grid.no-margin 
+  > div.layout-main-content.column.white.background.nine.wide 
+  > div 
+  > form 
+  > div:nth-child(n+0) 
+  > div:nth-child(n+0) 
+  > label {
+  color: #fff !important;
+}

@@ -1,0 +1,26 @@
+#new_funnel_steps_products_billings_form
+  > div.grouped.fields
+  > div.ui.grid
+  > div
+  > div:nth-child(1) {
+  width: 100% !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div:nth-child(3) {
+  padding-top: 0 !important;
+}
+
+#cf-sidebar {
+  display: none !important;
+}
+.cf-main {
+  max-width: 1280px !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-top: 30px !important;
+  box-shadow: 0 0 0 4px #141b22, 0 0 4px 4px #141b22 !important;
+}

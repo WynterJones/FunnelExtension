@@ -1,0 +1,20 @@
+#cf-layout-standard 
+  > div 
+  > div.ui.basic.segment {
+  padding: 0 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > h1 {
+  color: #fff !important;
+  margin-bottom: 20px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.accordion.cf-settings {
+  padding: 30px !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+}

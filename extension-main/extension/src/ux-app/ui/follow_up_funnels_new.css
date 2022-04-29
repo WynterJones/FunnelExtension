@@ -1,0 +1,28 @@
+#right-column {
+  display: none !important;
+}
+
+#form-column {
+  width: 100% !important;
+  border: none !important;
+}
+
+#form-column 
+`> h1 {
+  color: #fff !important;
+}
+
+#form-column 
+  > div {
+  padding: 30px !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+  color: #000 !important;
+}
+
+#new_follow_up_funnel
+  > div.field.boolean.optional.follow_up_funnel_send_to_all_contacts,
+#new_follow_up_funnel
+  > div.field.select.required.follow_up_funnel_group_tag.with_hint {
+  margin-bottom: 20px !important;
+}

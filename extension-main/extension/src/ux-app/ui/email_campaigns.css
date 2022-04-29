@@ -1,0 +1,88 @@
+.funnelViewSidePanel,
+.funnelViewBlock:before {
+  display: none !important;
+}
+
+.funnelViewBlock {
+  background: #fff !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation.clearfix
+  > div.alert.alert-danger.flex.flex-row
+  > i {
+  width: 212px !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation.clearfix
+  > div.alert.alert-danger.flex.flex-row {
+  padding: 20px !important;
+}
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation.clearfix
+  > div.alert.alert-danger.flex.flex-row
+  > div {
+  font-size: 17px;
+  line-height: 1.6em;
+  font-weight: bold;
+}
+
+#search-field {
+  color: #999 !important;
+  background: #fff !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelHeaderWrapper.clearfix
+  > div.pull-left.newtitle_subhead {
+  display: none !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelHeaderWrapper.clearfix
+  > div.funnelHeaderNameAndIcon.pull-left.clearfix {
+  width: 900px !important;
+}
+
+.funnelHeaderName {
+  width: 600px !important;
+  margin-top: 23px !important;
+}
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelHeaderWrapper.clearfix
+  > div.funnelHeaderNameAndIcon.pull-left.clearfix
+  > div.funnelHeaderIcon.pull-left {
+  padding-top: 6px !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation.clearfix
+  > div.affdashboardstats.clearfix {
+  margin-left: -21px !important;
+}

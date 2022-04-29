@@ -1,0 +1,419 @@
+#lumen-two-body {
+  background: #1e2e3c !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #1e242b !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4 {
+  color: #fff !important;
+}
+
+/* results table */
+#affiliates-table > table > tbody > tr:nth-child(n + 0) {
+  background: #32485a !important;
+}
+
+/* results name */
+#affiliates-table
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td:nth-child(n + 0)
+  > div
+  > div
+  > div {
+  color: #fff !important;
+}
+
+/* results email */
+#affiliates-table
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td:nth-child(2)
+  > div
+  > div
+  > p {
+  color: #fff !important;
+}
+
+#affiliates-table
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td.ui.spaced.collapsing.right.aligned
+  > a.ui.button.small.triggerEditAffiliateModal {
+  background: #32485a !important;
+  color: #fff !important;
+}
+
+#affiliates-table
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td:nth-child(3)
+  > div
+  > div
+  > p
+  > a {
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form
+  > div
+  > div:nth-child(2)
+  > a {
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form
+  > div
+  > div:nth-child(3)
+  > a {
+  color: #1454b4 !important;
+}
+
+#affiliates-table
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a.active.item {
+  background: #32485a !important;
+}
+
+#affiliates-table
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a:nth-child(n + 0)
+  > i {
+  color: #fff !important;
+}
+
+#affiliates-table
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a:nth-child(n + 0)
+  > i {
+  color: #fff !important;
+}
+
+#affiliates-table
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a:nth-child(n + 0)
+  > i {
+  color: #fff !important;
+}
+
+#affiliates-table
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a:nth-child(n + 0)
+  > i {
+  color: #fff !important;
+}
+
+#affiliates-table
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a:nth-child(n + 0):hover {
+  background: #1454b4 !important;
+}
+
+#affiliates-table
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td.ui.spaced.collapsing.right.aligned
+  > a.ui.button.small.link:hover {
+  background: #1454b4 !important;
+}
+
+#edit_affiliate_modal > div {
+  background: #1e242b !important;
+}
+
+#edit_affiliate_modal
+  > div
+  > div.ui.header.modal-header.modal-remote
+  > div
+  > h5 {
+  color: #fff !important;
+}
+
+#affiliate_form
+  > div.modal-content
+  > div
+  > div.ui.tab.section.active
+  > div:nth-child(n + 0)
+  > div
+  > div:nth-child(n + 0)
+  > label {
+  color: #fff !important;
+}
+
+#affiliate_form
+  > div.modal-content
+  > div
+  > div.controls
+  > div
+  > a.item.no-left-margin.active {
+  color: #fff !important;
+}
+
+#affiliate_form
+  > div.modal-content
+  > div
+  > div.controls
+  > div
+  > a.item.no-left-margin.active:hover {
+  background: #2271e7 !important;
+}
+
+#affiliate_form
+  > div.modal-content
+  > div
+  > div.controls
+  > div
+  > a:nth-child(n + 0) {
+  color: #fff !important;
+}
+
+#affiliate_form
+  > div.modal-content
+  > div
+  > div.ui.tab.section.active
+  > div:nth-child(1)
+  > label {
+  color: #fff !important;
+}
+
+#affiliate_form
+  > div.modal-content
+  > div
+  > div.ui.tab.section.active
+  > div.field.ui.vertically.spaced
+  > p {
+  color: #fff !important;
+}
+
+#affiliate_form
+  > div.modal-content
+  > div
+  > div.ui.tab.section.active
+  > div:nth-child(3)
+  > h3 {
+  color: #fff !important;
+}
+
+#affiliate_form
+  > div.modal-content
+  > div
+  > div.ui.tab.section.active
+  > div:nth-child(3) {
+  color: #fff !important;
+}
+
+#affiliate_form
+  > div.modal-content
+  > div
+  > div.ui.tab.section.active
+  > div:nth-child(2)
+  > div
+  > div:nth-child(1)
+  > div
+  > label {
+  color: #fff !important;
+}
+
+#affiliate_form
+  > div.modal-content
+  > div
+  > div.ui.tab.section.active
+  > div:nth-child(3)
+  > label {
+  color: #fff !important;
+}
+
+/* export csv pop up */
+
+#ExportToCSVModal {
+  background: #1e242b !important;
+}
+
+#ExportToCSVModal 
+  > div.ui.header.modal-header 
+  > div 
+  > h5 {
+  color: #fff !important;
+}
+
+#ExportToCSVModal 
+  > div.modal-content 
+  > p {
+  color: #fff !important;
+}
+
+#ExportToCSVModal 
+  > div.modal-content 
+  > div.ui.progress.blue 
+  > div.label {
+  color: #fff !important;
+  border: 1px solid #ccc !important;
+}
+
+#ExportToCSVModal 
+  > div.modal-content 
+  > div.modal-actions 
+  > a {
+  background: #1454b4 !important;
+}
+
+#ExportToCSVModal 
+  > div.modal-content 
+  > div.ui.progress.blue 
+  > div.bar 
+  > div {
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #161b20 !important;
+}
+
+body .layout-sidenav .ui.inverted.list {
+  background: #0e1114 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4 {
+  color: #fff !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4
+  > i {
+  display: none !important;
+}
+
+#affiliates-table {
+  padding: 15px !important;
+  background: #171B20 !important;
+  border-radius: 4px !important;
+  color: #000 !important;
+  margin-top: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.ui.header.layout-topnav.top.attached.dark.blue.background.no-margin
+  > div.extra.content.ui.spaced.right.middle.aligned {
+  display: none !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form
+  > div
+  > div:nth-child(2) {
+  margin: 0 !important;
+}
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form
+  > div
+  > div:nth-child(2)
+  > a {
+  position: absolute;
+  top: -120px !important;
+  right: -8px !important;
+  font-size: 16px !important;
+  padding: 11px 24px !important;
+  border-color: rgb(204, 152, 24) !important;
+  color: rgb(67, 40, 17) !important;
+  background-color: rgb(255, 203, 14) !important;
+}
+
+#affiliates-table 
+  > table 
+  > thead 
+  > tr 
+  > th:nth-child(n+0) 
+  > span {
+  color: #fff !important;
+}
+
+#affiliates-table 
+  > div 
+  > div:nth-child(n+0) 
+  > span {
+  color: #fff !important;
+}
+
+#affiliates-table 
+  > div 
+  > div.three.wide.column.right.middle.aligned {
+  color: #fff !important;
+}
+
+#affiliates-table 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td.ui.spaced.collapsing.right.aligned 
+  > a.ui.button.small.link {
+  color: #fff !important;
+}
+
+#affiliates-table 
+  > div 
+  > div:nth-child(n+0) 
+  > div 
+  > div.text {
+  color: #fff !important;
+}
+
+#affiliates-table 
+  > div 
+  > div:nth-child(n+0) 
+  > div 
+  > i {
+  color: #fff !important;
+}

@@ -1,0 +1,237 @@
+.funnelViewSidePanel,
+.funnelViewBlock:before {
+  display: none !important;
+}
+
+.funnelViewBlock {
+  background: #fff !important;
+}
+
+body .cf-main {
+  width: 100% !important;
+  padding: 0 !important;
+  background: #fff !important;
+  border-radius: 5px !important;
+  overflow: hidden !important;
+  margin-top: 30px !important;
+  box-shadow: 0 0 0 4px #141b22, 0 0 4px 4px #141b22 !important;
+  max-width: calc(1280px + 2 * 20px) !important;
+  margin: 30px auto !important;
+}
+
+body > div.cf-main > div {
+  padding: 0 !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div.ui.blue.inverted.top.attached.segment
+  > div
+  > div
+  > div.left.floated.column
+  > h2
+  > span {
+  background: none !important;
+  color: #fff !important;
+}
+
+body 
+  > div.cf-main 
+  > div 
+  > div.ui.blue.inverted.top.attached.segment {
+  background: #1956ae !important;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div.ui.blue.inverted.top.attached.segment
+  > div
+  > div
+  > div.left.floated.column
+  > h2 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  letter-spacing: normal !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div.ui.blue.inverted.top.attached.segment
+  > div
+  > div
+  > div.left.floated.column
+  > h2
+  > span {
+  margin-right: -12px !important;
+}
+body
+  > div.cf-main
+  > div
+  > div.ui.blue.inverted.top.attached.segment
+  > div
+  > div
+  > div.left.floated.column
+  > h2
+  > span
+  > i {
+  color: #fff !important;
+  font-size: 24px !important;
+}
+
+#cf-sidebar 
+  > div {
+  background-color: #202e3b !important;
+  width: 330px !important;
+  padding: 12px !important;
+}
+#cf-sidebar a {
+  margin: 5px 0 !important;
+  background-color: #354858 !important;
+  font-size: 23px !important;
+  border-radius: 4px !important;
+  border: none !important;
+  letter-spacing: normal !important;
+  transition: none !important;
+  overflow: hidden !important;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+}
+
+#cf-sidebar a figure {
+  background-color: #546e84 !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100% !important;
+  margin: 9px 12px !important;
+  border: none !important;
+  transition: none !important;
+}
+
+#cf-sidebar .ui.massive.vertical.menu .item:not(.active):hover {
+  background: #2271e7 !important;
+}
+#cf-sidebar .ui.massive.vertical.menu .item:not(.active):hover .info {
+  background-color: #2271e7 !important;
+  color: #fff !important;
+}
+#cf-sidebar .ui.massive.vertical.menu .item:not(.active):hover .info p {
+  background-color: #2271e7 !important;
+  color: #fff !important;
+}
+#cf-sidebar .ui.massive.vertical.menu .item:not(.active):hover figure {
+  background-color: #fff !important;
+  color: #2271e7 !important;
+}
+
+#cf-sidebar .ui.massive.vertical.menu .item:not(.active):hover figure i {
+  color: #2271e7 !important;
+}
+
+.ui.massive.vertical.menu .item figure i.icon {
+  opacity: 1 !important;
+  color: #fff !important;
+  line-height: 40px !important;
+  width: 100% !important;
+  height: 100% !important;
+  font-size: 14px !important;
+}
+.ui.massive.vertical.menu .item .info {
+  padding-left: 0 !important;
+  letter-spacing: normal !important;
+  border: none !important;
+  transition: none !important;
+}
+
+.ui.massive.vertical.menu .item .info p {
+  padding-left: 0 !important;
+  letter-spacing: normal !important;
+  transition: none !important;
+}
+
+#cf-sidebar > div > h4 {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: #a3b7c7 !important;
+  margin: 0 0 8px 0 !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 1 !important;
+  margin-bottom: -19px !important;
+  margin-top: 17px !important;
+}
+
+#cf-sidebar a.item.active {
+  background: #fff !important;
+  color: #2974e0 !important;
+  border-radius: 4px !important;
+  overflow: hidden !important;
+}
+
+.ui.massive.vertical.menu .item.active .info p {
+  color: #2974e0 !important;
+}
+
+#cf-sidebar a.item.active figure {
+  background-color: #2974e0 !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100% !important;
+  border: none !important;
+  margin: 9px 12px !important;
+}
+
+#cf-sidebar > div > h4,
+#cf-sidebar > div > a.item.last {
+  display: none !important;
+}
+
+body #cf-layout-standard {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+#cf-layout-standard .cf-layout-standard-row {
+  margin-left: -21px !important;
+}
+
+/* #cf-layout-standard
+  > div
+  > div.ui.grid
+  > div
+  > div
+  > div.ui.blue.top.attached.tiny.inverted.segment.pre-header.cfsticky
+  > div
+  > div
+  > div.six.wide.column.table-search
+  > form
+  > div
+  > div
+  > input[type="text"] {
+  color: #000 !important;
+  background: #fff !important;
+} */
+
+/* footer */
+footer.cf-footer .container {
+  width: 100% !important;
+  padding: 0 !important;
+  background: #141b22 !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  overflow: hidden !important;
+  margin-top: 30px !important;
+  box-shadow: 0 0 0 4px #141b22, 0 0 4px 4px #141b22 !important;
+}
+
+body footer.cf-footer .ui.container {
+  width: 100% !important;
+  max-width: calc(1320px) !important;
+  padding: 10px !important;
+}

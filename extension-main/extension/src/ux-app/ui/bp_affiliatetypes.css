@@ -1,0 +1,176 @@
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #1e242b !important;
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form
+  > div
+  > div:nth-child(2)
+  > a {
+  color: #1454b4 !important;
+}
+
+#affiliate_type_modal 
+  > div 
+  > div.ui.header.modal-header.modal-remote {
+  background: #1e242b !important;
+  color: #fff !important;
+}
+
+/* pop up */
+#affiliate_type_modal 
+  > div 
+  > form 
+  > div.modal-content {
+  background: #1e242b !important;
+}
+
+#affiliate_type_modal
+  > div
+  > form
+  > div.modal-content
+  > div.field.required
+  > label {
+  color: #fff !important;
+}
+
+#affiliate_type_modal
+  > div
+  > form
+  > div.modal-content
+  > div:nth-child(2)
+  > label {
+  color: #fff !important;
+}
+
+#affiliate_type_modal
+  > div
+  > form
+  > div.modal-content
+  > div:nth-child(2)
+  > div
+  > label {
+  color: #fff !important;
+}
+
+#affiliate_type_modal 
+  > div 
+  > form 
+  > div.modal-actions {
+  background: #1e242b !important;
+}
+
+#affiliate_type_modal 
+  > div {
+  background: #1e242b !important;
+}
+
+#affiliate_type_modal_submit_button {
+  color: #fff !important;
+  background: #1454b4 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #161b20 !important;
+}
+
+body .layout-sidenav .ui.inverted.list {
+  background: #0e1114 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4 {
+  color: #fff !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4
+  > i {
+  display: none !important;
+}
+
+#affiliate-types-table {
+  padding: 15px !important;
+  background: #171B20 !important;
+  border-radius: 4px !important;
+  color: #000 !important;
+  margin-top: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.ui.header.layout-topnav.top.attached.dark.blue.background.no-margin
+  > div.extra.content.ui.spaced.right.middle.aligned {
+  display: none !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form
+  > div
+  > div:nth-child(2)
+  > a {
+  position: absolute;
+  top: -120px !important;
+  right: -8px !important;
+  font-size: 16px !important;
+  padding: 11px 24px !important;
+  border-color: rgb(204, 152, 24) !important;
+  color: rgb(67, 40, 17) !important;
+  background-color: rgb(255, 203, 14) !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form
+  > div
+  > div:nth-child(2) {
+  margin: 0 !important;
+}
+
+#affiliate-types-table 
+  > table 
+  > thead 
+  > tr 
+  > th:nth-child(1) 
+  > span {
+  color: #fff !important;
+}
+
+#affiliate-types-table 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) {
+  color: #fff !important;
+  background: #0E1114 !important;
+}
+
+#affiliate-types-table 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td.ui.right.aligned.disabled {
+  color: #fff !important;
+}

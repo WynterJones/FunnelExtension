@@ -1,0 +1,179 @@
+#cf-layout-standard
+  > div
+  > div.ui.basic.tabular.segment.cf-layout-standard-row
+  > div
+  > div
+  > div:nth-child(2)
+  > a {
+  position: absolute !important;
+  top: -52px !important;
+  right: 3px !important;
+  z-index: 999 !important;
+  width: 220px !important;
+  font-size: 16px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div.ui.basic.tabular.segment.cf-layout-standard-row {
+  background: none !important;
+  margin-top: -24px !important;
+  padding: 0 22px !important;
+  padding-right: 50px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div.ui.basic.tabular.segment.cf-layout-standard-row
+  > div
+  > div
+  > div:nth-child(1)
+  > h2 {
+  color: #fff !important;
+  padding-top: 10px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div {
+  padding-top: 0 !important;
+  margin-top: -10px !important;
+}
+
+body .ui.tabular.segment.basic:after {
+  display: none !important;
+}
+
+body .ui.tabular.segment.basic .row .tabular.menu 
+  > a.item {
+  border-radius: 4px !important;
+  margin-left: 5px !important;
+  padding: 10px !important;
+  height: 40px !important;
+  border: 1px solid rgb(51, 51, 51) !important;
+}
+
+body
+  #cf-layout-standard
+  > div
+  > div
+  > div.fuf-broadcast.ui.basic.tabular.segment.cf-layout-standard-row {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div.fuf-broadcast.ui.basic.tabular.segment.cf-layout-standard-row
+  > div
+  > div
+  > div:nth-child(1)
+  > h2 {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div.stat-container {
+  padding: 30px !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+  margin-top: -5px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div.stat-container 
+  > div.ui.hidden.divider {
+  display: none !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div 
+  > div.actionetics {
+  padding: 30px !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+  color: #000 !important;
+  border: none !important;
+  margin-bottom: 15px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div.ui.grid
+  > div
+  > div
+  > div
+  > div.ui.grid
+  > div
+  > div.right.floated.two.wide.column
+  > div
+  > p {
+  color: #000 !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div.stat-container
+  > div.ui.padded.segment.left.aligned {
+  margin-top: 0 !important;
+  background: #fafafa !important;
+  border: 1px solid #eee !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div.ui.hidden.divider {
+  display: none !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div.cf-overview-sds-fixes 
+  > div {
+  border-radius: 4px !important;
+  margin-bottom: 15px !important;
+}
+
+.ui.menu.pagination {
+  background: none !important;
+}
+
+body .ui.menu.pagination .item {
+  color: #1f58a9 !important;
+  background: rgb(236, 236, 236) !important;
+  border-radius: 4px !important;
+}
+
+body .ui.menu.pagination .item.active {
+  color: #fff !important;
+  background: #1f58a9 !important;
+  border-color: #1a509c !important;
+  border-radius: 4px !important;
+}
+
+body .pagination-per-page {
+  padding: 20px 0 !important;
+  padding-bottom: 10px !important;
+  color: #6d7680 !important;
+  text-align: left !important;
+}
+
+#broadcast_v2_messages
+  > div.content
+  > div.ui.center.aligned.basic.bottom.attached.segment {
+  padding: 0 !important;
+}

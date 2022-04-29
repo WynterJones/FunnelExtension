@@ -1,0 +1,26 @@
+#cf-layout-standard 
+  > div 
+  > h2 {
+  color: #fff !important;
+  margin-bottom: 5px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.sub.header {
+  margin-bottom: 15px !important;
+}
+body .ui.hidden.divider {
+  display: none !important;
+}
+
+body .ui.card,
+body .ui.cards > .card {
+  transition: all ease-in-out 0.2s !important;
+}
+
+body .ui.card:hover,
+body .ui.cards > .card:hover {
+  box-shadow: 0 0 0 3px #2d80d5, 0 5px 15px 3px #2d81d5b6 !important;
+  transform: scale(1.02) !important;
+}

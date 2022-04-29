@@ -1,0 +1,399 @@
+body 
+  > div.main 
+  > div.container 
+  > div 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div.ui.four.wide.column 
+  > div 
+  > form 
+  > div:nth-child(1) 
+  > h4 {
+  color: #fff !important;
+}
+
+body 
+  > div.main 
+  > div.container 
+  > div 
+  > div 
+  > div.cf-cookbook-step-header 
+  > div.step-number {
+  color: #fff !important;
+}
+
+body 
+  > div.main 
+  > div.container 
+  > div 
+  > div 
+  > div.cf-cookbook-step-header 
+  > div.step-description {
+  color: #fff !important;
+}
+
+body 
+  > div.main 
+  > div.container 
+  > div 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div.ui.four.wide.column 
+  > div 
+  > form 
+  > div:nth-child(n+0) 
+  > div:nth-child(n+0) 
+  > div 
+  > label {
+  color: #fff !important;
+}
+
+body 
+  > div.main 
+  > div.container 
+  > div 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div.ui.four.wide.column 
+  > div 
+  > form 
+  > div:nth-child(2) 
+  > h4 {
+  color: #fff !important;
+}
+
+body 
+  > div.modal 
+  > div 
+  > div 
+  > div.modal-body.opened {
+  background: #1E242B !important;
+}
+
+body 
+  > div.modal 
+  > div 
+  > div 
+  > div.modal-footer {
+  background: #1E242B !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.addNewFunnelProgressStepsDiv 
+  > div.col-sm-2.f_step1.currentlySelected {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.addNewFunnelProgressStepsDiv 
+  > div.col-sm-2.f_step3 {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.addNewFunnelProgressStepsDiv 
+  > div.col-sm-2.f_step5 {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.secondOneforAddNewFunnel 
+  > div.col-sm-4.col-sm-offset-4 
+  > a {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.secondOneforAddNewFunnel 
+  > div:nth-child(5) 
+  > a {
+  color: #fff !important;
+  background: #1668AB !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.addNewFunnelProgressStepsDiv 
+  > div.addNewFunnelProgressBar {
+  background: #1668AB !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-7 
+  > div 
+  > div 
+  > strong:nth-child(1) {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-7 
+  > div 
+  > div 
+  > strong:nth-child(3) {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-7 
+  > div 
+  > div 
+  > a {
+  color: #fff !important;
+  background: #1668AB !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-7 
+  > div 
+  > div 
+  > a 
+  > i {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalEmail 
+  > div.col-sm-12 {
+  color: #fff !important;
+  background: #202E3B !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalEmail 
+  > div.col-sm-12 
+  > a {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalSales 
+  > div.col-sm-12 {
+  color: #fff !important;
+  background: #202E3B !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalSales 
+  > div.col-sm-12 
+  > a {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalLaunch 
+  > div.col-sm-12 {
+  color: #fff !important;
+  background: #202E3B !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalLaunch 
+  > div.col-sm-12 
+  > a {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalWebinar 
+  > div.col-sm-12 {
+  color: #fff !important;
+  background: #202E3B !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalWebinar 
+  > div.col-sm-12 
+  > a {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalAutoWebinar 
+  > div.col-sm-12 {
+  color: #fff !important;
+  background: #202E3B !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalAutoWebinar 
+  > div.col-sm-12 
+  > a {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalMembership 
+  > div.col-sm-12 {
+  color: #fff !important;
+  background: #202E3B !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.thirdStepforAddNewFunnel 
+  > div.col-sm-5.doneImageofFunnel 
+  > div.addfunnel_FinalShow.addfunnel_FinalMembership 
+  > div.col-sm-12 
+  > a {
+  color: #fff !important;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.addNewFunnelProgressStepsDiv 
+  > div.col-sm-2.f_step1.alreadyhasbeenSelected {
+  color: #fff !important;
+}
+
+body 
+  > div.main 
+  > div.container 
+  > div 
+  > div {
+  background: #1E242B !important;
+}
+
+body 
+  > div.main 
+  > div.container 
+  > div 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div.ui.four.wide.column 
+  > div 
+  > form 
+  > div:nth-child(n+0) 
+  > h4 {
+  color: #fff !important;
+}
+body 
+  > div.main 
+  > div.container 
+  > div 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div.ui.four.wide.column 
+  > div 
+  > form 
+  > div:nth-child(n+0) 
+  > div.field.checked-filter-field {
+  background: #2271E7 !important;
+}
+
+}
+/* hide stuff that shows up between steps, and make no sense in the context of a progress tracker */
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.addNewFunnelProgressStepsDiv 
+  > div:nth-child(3) 
+  > div 
+  > span {
+  opacity: 0.0;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.addNewFunnelProgressStepsDiv 
+  > div:nth-child(3) 
+  > div 
+  > div {
+  opacity: 0.0;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.addNewFunnelProgressStepsDiv 
+  > div:nth-child(5) 
+  > div 
+  > span {
+  opacity: 0.0;
+}
+
+#new_funnel 
+  > div.funnelViewBlock2 
+  > div.col-sm-12.selectFunnelTypeBox.clearfix 
+  > div.addNewFunnelProgressStepsDiv 
+  > div:nth-child(5) 
+  > div 
+  > div {
+  opacity: 0.0;
+}

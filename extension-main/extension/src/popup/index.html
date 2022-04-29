@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<link
+  href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+  rel="stylesheet"
+/>
+<style type="text/css">
+  #mainPopup {
+    background: #f0f2f5;
+    width: 400px;
+    font-family: Helvetica, Ubuntu, Arial, sans-serif;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  P {
+    font-size: 1.2em;
+  }
+  .button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #444;
+    background: #fff;
+    font-weight: 800;
+  }
+  .button.primary {
+    background: #8e322c;
+    border-color: #722520;
+    color: #fff;
+  }
+  .wrapper {
+    padding: 20px;
+    border-bottom: 1px solid #d9dbde;
+  }
+  .bg-light {
+    background: #f0f2f5;
+  }
+</style>
+
+<script src="javascript.js"></script>
+<div id="mainPopup">
+  <div
+    class="
+      wrapper
+      bg-gray-900
+      text-white text-3xl
+      font-bold
+      flex
+      justify-between
+      items-center
+    "
+  >
+    <img src="../../icons/128x128.png" style="width: 60px" />
+    CF Editor Apps
+    <div></div>
+  </div>
+  <div class="wrapper bg-white">
+    <p>
+      Thanks for using the CF Editor Apps extension. You are currently using the
+      beta version which is free. Later on more premium apps will be available.
+    </p>
+  </div>
+</div>

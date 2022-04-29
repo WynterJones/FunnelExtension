@@ -1,0 +1,21 @@
+#cf-layout-standard 
+  > div 
+  > div 
+  > h2 {
+  color: #fff !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div
+  > div.domain-search-results-container.ui.blurring.segment.basic.dimmable {
+  padding: 30px !important;
+  background: #fff !important;
+  border-radius: 14px !important;
+  margin-top: 20px !important;
+}
+
+body .ui.table.empty {
+  display: none !important;
+}

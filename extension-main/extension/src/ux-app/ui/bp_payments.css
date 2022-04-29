@@ -1,0 +1,160 @@
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4 {
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div
+  > div.ui.flex.segment.justify-space-between
+  > div.ui.flex.flex-column.spaced.vertically
+  > div.segment-header.ui.small.text {
+  color: #fff !important;
+}
+/* selected option, 3 tabs */
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div
+  > div.ui.menu
+  > a.item.active {
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div
+  > div.ui.menu
+  > a:nth-child(n + 0) {
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div
+  > div.ui.flex.segment.justify-space-between
+  > div
+  > div.commissions-amount.ui.bold.massive.text {
+  color: #fff !important;
+}
+
+#triggerExportToCSVModal {
+  color: #1454b4 !important;
+}
+
+#affiliate-payments-table
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a.active.item {
+  background: #32485a !important;
+  color: #fff !important;
+}
+
+#affiliate-payments-table
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a:nth-child(n + 0) {
+  color: #fff !important;
+}
+
+#affiliate-payments-table
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a:nth-child(n + 0):hover {
+  background: #1454b4 !important;
+}
+
+/* fixes 2nd paypal button on future commissions tab, but fucks up whole amount column in recent payments tab
+
+#affiliate-payments-table 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(5) 
+  > a {
+  background: #2271E7 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+*/
+
+#affiliate-payments-table
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td:nth-child(6)
+  > a {
+  background: #1e242b !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.ui.header.layout-topnav.top.attached.dark.blue.background.no-margin
+  > div.extra.content.ui.spaced.right.middle.aligned {
+  display: none !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #161b20 !important;
+}
+
+body .layout-sidenav .ui.inverted.list {
+  background: #0e1114 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4 {
+  color: #fff !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4
+  > i {
+  display: none !important;
+}
+
+#affiliate-payments-table {
+  padding: 15px !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+  color: #000 !important;
+  margin-top: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div
+  > div.ui.flex.segment.justify-space-between {
+  box-shadow: none !important;
+  background: #000 !important;
+  border: none !important;
+  margin-bottom: 15px !important;
+}

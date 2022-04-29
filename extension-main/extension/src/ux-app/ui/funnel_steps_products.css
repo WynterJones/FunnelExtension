@@ -1,0 +1,57 @@
+#cf-sidebar,
+body
+  > div.cf-main
+  > div
+  > div.ui.blue.top.attached.segment.inverted.tabular
+  > div
+  > div
+  > div.right.aligned.floated
+  > div {
+  display: none !important;
+}
+
+.cf-main {
+  max-width: 1280px !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-top: 30px !important;
+  box-shadow: 0 0 0 4px #141b22, 0 0 4px 4px #141b22 !important;
+}
+
+body 
+  > div.cf-main 
+  > div {
+  padding: 0 !important;
+}
+
+body 
+  > footer {
+  width: 100% !important;
+  padding: 0 !important;
+  background: #141b22 !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  overflow: hidden !important;
+  max-width: 1280px !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  margin-top: 30px !important;
+  box-shadow: 0 0 0 4px #141b22, 0 0 4px 4px #141b22 !important;
+}
+body 
+  > footer 
+  > .ui.container:not(#cfFlashMessages) {
+  background: none !important;
+  margin: 0 !important;
+}
+
+.ui.breadcrumb.broadcast .section {
+  font-size: 13px !important;
+}
+
+.ui.breadcrumb.broadcast .section 
+  > div {
+  height: 11px !important;
+  overflow: hidden !important;
+}

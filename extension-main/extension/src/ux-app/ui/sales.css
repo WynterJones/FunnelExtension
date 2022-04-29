@@ -1,0 +1,498 @@
+.funnelViewSidePanel,
+.funnelViewBlock::before,
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelHeaderWrapper.clearfix
+  > div.pull-left.newtitle_subhead {
+  display: none !important;
+}
+
+.funnelViewBlock {
+  background: none !important;
+}
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > form
+  > div.row.form-inline {
+  padding-bottom: 0 !important;
+}
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > form
+  > div.row.form-inline
+  > div {
+  background: none !important;
+  border: none !important;
+}
+
+body .funnelViewInformation {
+  background: #151b21 !important;
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > form
+  > div:nth-child(4)
+  > div {
+  border-color: rgb(63, 80, 97) !important;
+  background: #222e3a !important;
+}
+
+body .contacts_total {
+  margin-left: -5px !important;
+  margin-right: -5px !important;
+  background: #161b20 !important;
+  border-color: #161b20 !important;
+  margin-top: -25px !important;
+  margin-bottom: 0 !important;
+  color: #fff !important;
+}
+
+body .table-striped 
+  > tbody 
+  > tr:nth-child(odd) 
+  > td {
+  background-color: #171e24 !important;
+  border-color: #232c33 !important;
+}
+
+body .table-striped 
+  > tbody 
+  > tr 
+  > td {
+  border-color: #232c33 !important;
+}
+
+body .table-striped 
+  > tbody 
+  > tr 
+  > td a {
+  color: #47a4db !important;
+  font-weight: bold !important;
+}
+
+body .table-striped 
+  > tbody 
+  > tr 
+  > td:nth-child(3) {
+  color: #44ad80 !important;
+  font-weight: bold !important;
+  text-align: center !important;
+}
+
+body .table-striped 
+  > tbody 
+  > tr 
+  > td:nth-child(2) {
+  color: #fff !important;
+  font-weight: bold !important;
+  text-align: right !important;
+}
+
+body .table-striped 
+  > thead 
+  > tr 
+  > th:nth-child(2) {
+  text-align: right !important;
+}
+
+body .table-striped 
+  > thead 
+  > tr 
+  > th:nth-child(3) {
+  text-align: center !important;
+}
+
+body .table-striped 
+  > tbody 
+  > tr 
+  > td:nth-child(5) {
+  color: rgba(255, 255, 255, 0.726) !important;
+  font-weight: bold !important;
+}
+body .table-striped 
+  > thead {
+  border-bottom: 1px solid #435361;
+  background: #0f1115;
+}
+
+body .table-striped 
+  > thead 
+  > tr 
+  > th {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.table 
+  > thead 
+  > tr 
+  > th {
+  border: none !important;
+}
+
+body #purchases 
+  > div.content 
+  > p 
+  > span.badge {
+  margin: 0 10px !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > form
+  > div:nth-child(4)
+  > div
+  > div.col-sm-3
+  > div
+  > a {
+  width: 100% !important;
+  padding: 9px 0 !important;
+  background: #1956ae !important;
+  border-color: #2762b4 !important;
+  color: #fff !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > form
+  > div:nth-child(4)
+  > div
+  > div.col-sm-3
+  > div
+  > a
+  i {
+  color: #fff !important;
+}
+
+body .select2-container-multi .select2-choices .select2-search-field,
+.select2-container-multi .select2-choices,
+#s2id_autogen1 {
+  background: #161b20 !important;
+  color: #fff !important;
+  border-color: #232c33 !important;
+  font-weight: bold !important;
+}
+body .select2-container-multi .select2-choices .select2-search-field input {
+  padding-left: 10px !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > form
+  > div:nth-child(4)
+  > div
+  > div.col-sm-9
+  > div {
+  border-color: #232c33 !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > form
+  > div:nth-child(4)
+  > div
+  > div.col-sm-9
+  > div
+  > div.input-group-addon {
+  background: #0e1114 !important;
+  color: #fff !important;
+  border-color: #232c33 !important;
+  font-weight: bold !important;
+}
+
+body .table-striped 
+  > tbody 
+  > tr 
+  > td a.btn {
+  color: #fff !important;
+  background: #0f1115 !important;
+  border: 1px solid #252933 !important;
+  box-shadow: none !important;
+}
+
+body .pagination > li > a,
+.pagination > li > span {
+  background: #0f1115 !important;
+  border-color: #1a1d24 !important;
+  color: rgba(255, 255, 255, 0.712) !important;
+}
+
+body .pagination 
+  > li.active 
+  > a {
+  background: #1956ae !important;
+}
+
+body .funnelHeaderWrapper {
+  background-color: #1956ae !important;
+}
+
+.contacts_total,
+#purchases > div.content > div.pagination-per-page.text-center {
+  display: none !important;
+}
+
+body .chooseDateTitle {
+  color: #fff !important;
+}
+
+body .select2-drop-active {
+  display: none !important;
+}
+
+body select#stats {
+  display: inline-block !important;
+  width: 150px !important;
+}
+
+body #showDatePicker {
+  display: block !important;
+}
+
+/* body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > form
+  > div.row.form-inline
+  > div {
+  display: none;
+} */
+
+.funnelHeaderName {
+  width: 720px !important;
+  overflow: visible !important;
+}
+
+.funnelHeaderName span {
+  text-transform: none !important;
+  font-size: 24px !important;
+  padding-top: 4px !important;
+  display: block !important;
+}
+
+body .funnelHeaderNameAndIcon {
+  width: 900px !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > form
+  > div:nth-child(4) {
+  margin-top: 0 !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > form
+  > div.row.form-inline {
+  position: absolute !important;
+  top: -35px !important;
+  right: -42px !important;
+  width: 400px !important;
+}
+
+body .funnelViewInformation,
+body .funnelViewBlock {
+  overflow: visible !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  div.col-md-6
+  div.well {
+  background: #0f1115 !important;
+  border: 1px solid #2e3741 !important;
+  color: rgba(255, 255, 255, 0.856) !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > div:nth-child(4)
+  > div
+  > div.well {
+  padding: 0 !important;
+  border: none !important;
+  background: none !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > div
+  div.well
+  a {
+  font-weight: bold !important;
+  color: #2b99f8 !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > div:nth-child(3)
+  > div
+  div.panel {
+  background: #0f1115 !important;
+  border-color: #2e3741 !important;
+  color: rgba(255, 255, 255, 0.856) !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > div:nth-child(3)
+  > div
+  > div
+  > div.panel-heading {
+  background: #0f1115 !important;
+  border-color: #2e3741 !important;
+  color: rgba(255, 255, 255, 0.856) !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > div:nth-child(3)
+  > div
+  > div
+  > div.panel-body {
+  background: #0f1115 !important;
+  border-color: #2e3741 !important;
+  color: rgba(255, 255, 255, 0.856) !important;
+}
+
+body .funnelAllContactsBlock a.btn {
+  color: #fff !important;
+  background: #0f1115 !important;
+  border: 1px solid #252933 !important;
+  box-shadow: none !important;
+}
+
+body .funnelAllContactsBlock a.btn i {
+  color: #fff !important;
+}
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > div:nth-child(4)
+  > div
+  > div
+  > a {
+  color: #ff577b !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > div:nth-child(4)
+  > div
+  > div
+  > a
+  i {
+  color: #ff577b !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock
+  > div.funnelViewInformation
+  > div
+  > div:nth-child(3)
+  > div
+  > div
+  > div.panel-body
+  > table
+  > tfoot {
+  display: none !important;
+}
+
+body .chooseDateTitle i {
+  margin-right: 6px !important;
+}

@@ -1,0 +1,5 @@
+#cf-layout-standard > div > div:nth-child(2) > div > div,
+#cf-layout-standard > div > div:nth-child(4) > div,
+#cf-layout-standard > div > div:nth-child(4) > div > div {
+  width: 100% !important;
+}

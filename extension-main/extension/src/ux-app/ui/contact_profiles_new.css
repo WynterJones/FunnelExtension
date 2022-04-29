@@ -1,0 +1,107 @@
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #161b20 !important;
+}
+
+body .layout-sidenav .ui.inverted.list {
+  background: #0e1114 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4 {
+  color: #fff !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4
+  > i {
+  display: none !important;
+}
+
+#affiliate-payments-table {
+  padding: 15px !important;
+  background: #171B20 !important;
+  border-radius: 4px !important;
+  color: #fff !important;
+  margin-top: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div
+  > div.ui.flex.segment.justify-space-between {
+  box-shadow: none !important;
+  background: #000 !important;
+  border: none !important;
+  margin-bottom: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form {
+  padding: 30px !important;
+  background: #171B20 !important;
+  border-radius: 4px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4
+  > div {
+  padding: 0 !important;
+}
+
+#controller-data > div > div.scroller > table {
+  background: #171B20 !important;
+}
+
+#lumen-two-body 
+  > div.ui.layout.container 
+  > div.layout-grid.ui.grid.no-margin 
+  > div.layout-main-content.column.white.background.nine.wide 
+  > form 
+  > div:nth-child(n+0) 
+  > div 
+  > div:nth-child(n+0) 
+  > label {
+  color: #fff !important;
+}
+
+#lumen-two-body 
+  > div.ui.layout.container 
+  > div.layout-grid.ui.grid.no-margin 
+  > div.layout-main-content.column.white.background.nine.wide 
+  > form 
+  > div.ui.grid 
+  > div:nth-child(n+0) 
+  > div:nth-child(n+0) 
+  > h3 {
+    color: #fff !important;
+  }
+
+  #lumen-two-body 
+    > div.ui.layout.container 
+    > div.layout-grid.ui.grid.no-margin 
+    > div.layout-main-content.column.white.background.nine.wide 
+    > form 
+    > div:nth-child(9) 
+    > div 
+    > div.section {
+    color: #fff !important;
+  }

@@ -1,0 +1,650 @@
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.quick-links
+  > div
+  > div.ui.header {
+  display: none !important;
+}
+
+body 
+  > div.cf-main 
+  > div 
+  > div 
+  > div.second.column 
+  > div.quick-links 
+  > div {
+  min-height: auto !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.quick-links
+  > div
+  > div.buttons
+  a {
+  margin: 0 !important;
+}
+.fhl-2020 .calendar #fhl_calendar_events_list {
+  margin-top: 35px !important;
+}
+
+.ui.segment {
+  background: #141b22 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+body footer .ui.container:not(#cfFlashMessages) {
+  width: 100% !important;
+  max-width: 1250px !important;
+  margin: 0 auto !important;
+  padding: 20px !important;
+  background: #141b22 !important;
+  border-radius: 5px !important;
+  overflow: hidden !important;
+  margin-top: 30px !important;
+  box-shadow: 0 0 0 4px #141b22, 0 0 4px 4px #141b22 !important;
+}
+
+.fhl-2020 
+  > .fhl-2020-container 
+  > .column 
+  > div 
+  > .segment 
+  > .header {
+  color: #fff !important;
+}
+
+.fhl-2020 .funnelflix 
+  > .segment 
+  > .accordion {
+  height: 345px;
+  overflow: auto;
+  background: #222e3a;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #3f5061;
+  margin-top: 0 !important;
+  color: #fff;
+}
+
+.fhl-2020 .funnelflix 
+  > .segment 
+  > .accordion .title {
+  color: #fff;
+  padding: 7px 0;
+  height: 46px;
+}
+
+body .fhl-2020 .funnelflix 
+  > .segment 
+  > .accordion .title .course-count {
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-weight: 100;
+}
+
+body .fhl-2020 .funnelflix 
+  > .segment 
+  > .accordion .content .list 
+  > * {
+  color: #fff !important;
+}
+
+body .fhl-2020 .funnelflix 
+  > .segment 
+  > .accordion .content .list 
+  > a .content {
+  color: #fff !important;
+}
+body
+  > div.cf-main
+  > div
+  > div
+  > div.first.column
+  > div.plans
+  > div
+  > div.ui.accordion.programs-and-awards {
+  overflow: auto;
+  background: #222e3a;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #3f5061;
+  margin-top: 0 !important;
+  color: #fff;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.first.column
+  > div.plans
+  > div
+  > div.ui.accordion.programs-and-awards
+  > div.title {
+  padding: 0 !important;
+  color: #fff !important;
+}
+
+body .fhl-2020 .plans 
+  > .segment .ui.no-margin.cards.column .card {
+  margin: 0;
+  border-radius: 4px !important;
+  margin-bottom: 5px;
+  width: 100% !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.first.column
+  > div.plans
+  > div
+  > div.ui.accordion.programs-and-awards
+  > div.content.active {
+  padding-top: 0 !important;
+}
+body
+  .fhl-2020
+  .funnelflix
+  > .segment
+  > .accordion
+  .content
+  .list
+  > a:hover
+  .content {
+  color: #47a4db !important;
+}
+
+body
+  .fhl-2020
+  .funnelflix
+  > .segment
+  > .accordion
+  .content
+  .locked-lessons-banner {
+  padding: 8px !important;
+  margin-top: -5px !important;
+}
+
+body .ui.accordion .title.active .angle.down.icon {
+  margin-top: -7px !important;
+}
+
+body .lumen-2 .ui.green.labels .label,
+body .lumen-2 .ui.ui.ui.green.label {
+  background-color: #161e25 !important;
+  border-color: #141b22 !important;
+  color: #e6d99a !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.funnel-sales
+  > div
+  > div.ui.header
+  > div
+  > div
+  > div.right.floated.right.aligned.column.cf-icon-container {
+  margin-right: 20px !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.funnel-sales
+  > div
+  > div.ui.header {
+  margin-bottom: 10px !important;
+}
+
+body .fhl-2020 .funnel-sales .stats-number .stats-label {
+  font-size: 13px !important;
+  color: #5e7183 !important;
+  margin-bottom: 5px !important;
+}
+
+body .fhl-2020 .funnel-sales .stats-number .value {
+  font-weight: bold !important;
+  font-size: 26px !important;
+  color: #fff !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.funnel-sales
+  > div
+  > div:nth-child(4)
+  > img {
+  display: none !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.funnel-sales
+  > div
+  > div.breadbox.ui.slate.text.flex.item-center.justify-space-between {
+  background: #232e39 !important;
+  border: 1px solid #3b4a58 !important;
+}
+
+.fhl-2020 
+  > .fhl-2020-container 
+  > .column 
+  > div 
+  > .segment 
+  > .header {
+  margin-bottom: 15px !important;
+}
+
+#inline_fhl_calendar .ui.table,
+.lumen-2 .ui.table > tbody,
+.ui.calendar .ui.table thead th {
+  background: #141b22 !important;
+  border: 1px solid #242d36 !important;
+  color: #fff !important;
+  box-shadow: 0 0 0 4px #141b22, 0 0 4px 4px #141b22 !important;
+}
+
+.fhl-2020
+  .calendar
+  #inline_fhl_calendar
+  > div
+  > table
+  > thead
+  > tr:nth-child(1)
+  > th
+  > span:nth-child(1) {
+  font-size: 18px !important;
+  color: #fff !important;
+  font-weight: 100;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.funnel-sales
+  > div
+  > div.breadbox.ui.slate.text.flex.item-center.justify-space-between
+  > form
+  > div {
+  background: #141b22 !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.funnel-sales
+  > div
+  > div.breadbox.ui.slate.text.flex.item-center.justify-space-between
+  > div
+  > div.text {
+  color: #fff !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.funnel-sales
+  > div
+  > div.ui.grid.stats-number
+  > div:nth-child(4) {
+  text-align: right;
+  padding-right: 22px;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.funnel-sales
+  > div
+  > div.ui.header
+  > div
+  > div
+  > div.right.floated.right.aligned.column.cf-icon-container
+  i {
+  color: #3c4c5c !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.funnel-sales
+  > div
+  > div:nth-child(4)
+  > p {
+  margin-bottom: 0 !important;
+}
+
+body .fhl-2020 
+  > .fhl-2020-container 
+  > .column 
+  > div 
+  > .segment 
+  > .footer {
+  background: #1f2933;
+  border-color: #242d36;
+  padding: 10px 20px;
+}
+
+body .fhl-2020 
+  > .fhl-2020-container 
+  > .column 
+  > div 
+  > .segment 
+  > .footer a {
+  color: #fff !important;
+}
+
+body .fhl-2020 
+  > .fhl-2020-container 
+  > .column 
+  > div 
+  > .segment.with-footer {
+  padding-bottom: 0 !important;
+}
+
+body .fhl-2020 .follow-up-funnels-stats 
+  > .segment {
+  height: auto !important;
+}
+
+body .fhl-2020 .follow-up-funnels-stats .header,
+body .fhl-2020 .affiliate-earnings .header {
+  font-size: 13px !important;
+  color: #5e7183 !important;
+  margin-bottom: 5px !important;
+}
+
+body .fhl-2020 .follow-up-funnels-stats .body,
+body .fhl-2020 .affiliate-earnings .body {
+  font-weight: bold !important;
+  font-size: 26px !important;
+  color: #fff !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.follow-up-funnels-stats
+  > div
+  > div.content
+  > div:nth-child(4) {
+  text-align: right !important;
+  padding-right: 0 !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.third.column
+  > div.affiliate-earnings
+  > div
+  > div.content
+  > div.month {
+  text-align: right !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.first.column
+  > div.plans
+  > div
+  > div.ui.header
+  > a {
+  background: #30a5e0 !important;
+  color: #fff !important;
+  padding: 5px 9px !important;
+  border-radius: 4px;
+}
+
+body .lumen-2 .ui.dropdown.multiple 
+  > .label {
+  background: #1f2933 !important;
+  font-weight: bold !important;
+}
+
+body .lumen-2 .ui.dropdown.multiple 
+  > .label * {
+  color: #fff !important;
+}
+
+body .fhl-2020 .breadbox .ui.label:first-child,
+body .fhl-2020 .breadbox .ui.label:first-child i {
+  color: #fff !important;
+}
+
+body .fhl-2020 .favorite-funnels 
+  > .segment .list .item .icon.funnel {
+  background-color: #1f2933 !important;
+  color: #5e7183 !important;
+  box-shadow: none !important;
+  margin-left: 0 !important;
+  border-radius: 4px !important;
+}
+
+body .fhl-2020 .favorite-funnels 
+  > .segment .list .item .content .description {
+  display: none !important;
+}
+
+body .fhl-2020 .favorite-funnels 
+  > .segment .list .item .content .header {
+  padding-top: 10px !important;
+  width: 170px !important;
+  margin-right: 10px !important;
+}
+
+body .fhl-2020 .sales-activity 
+  > .segment .list .item .content .price {
+  text-align: right !important;
+  padding-right: 10px !important;
+  font-size: 17px !important;
+  width: 85px !important;
+}
+
+body
+  .fhl-2020
+  .calendar
+  #fhl_calendar_events_list
+  > div.ui.relaxed.divided.list
+  > .item.blocked
+  .circular-background {
+  opacity: 1 !important;
+}
+
+body
+  .fhl-2020
+  .calendar
+  #fhl_calendar_events_list
+  > div.ui.relaxed.divided.list
+  > .item {
+  border-top: 1px solid #363b40 !important;
+}
+
+body
+  .fhl-2020
+  .calendar
+  #fhl_calendar_events_list
+  > div.ui.relaxed.divided.list
+  > .item
+  div.title,
+body
+  .fhl-2020
+  .calendar
+  #fhl_calendar_events_list
+  > div.ui.relaxed.divided.list
+  > .item
+  div.title
+  * {
+  color: #fff !important;
+}
+
+.lumen-2 .ui.list .list > .item .description,
+.lumen-2 .ui.list > .item .description {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+body
+  .fhl-2020
+  .calendar
+  #fhl_calendar_events_list
+  > div.ui.relaxed.divided.list
+  > .item.blocked
+  div.title,
+body
+  .fhl-2020
+  .calendar
+  #fhl_calendar_events_list
+  > div.ui.relaxed.divided.list
+  > .item.blocked
+  div.title
+  * {
+  color: #fff !important;
+}
+
+body .fhl-2020 .funnelflix 
+  > .segment 
+  > .accordion .content .list 
+  > a:hover {
+  border-radius: 4px !important;
+}
+
+body
+  .fhl-2020
+  .calendar
+  #fhl_calendar_events_list
+  > div.ui.relaxed.divided.list
+  .no-events {
+  margin-top: -15px !important;
+}
+
+body .lumen-2 .ui.inverted.dimmer {
+  background-color: rgba(31, 45, 58, 0.5);
+}
+
+body .lumen-2 .ui.inverted.dimmer > .ui.loader,
+.lumen-2 .ui.loader,
+.lumen-2 .ui.loading {
+  color: #fff !important;
+}
+
+body .cf-footer {
+  margin-top: -60px !important;
+}
+
+body .fhl-2020 .sales-activity,
+body .fhl-2020 .affiliate-earnings {
+  display: none;
+}
+body .fhl-2020 .sales-activity > .segment .list .item .content {
+  width: 335px !important;
+}
+
+body .lumen-2 .ui.list:first-child,
+.lumen-2 ol.ui.list:first-child,
+.lumen-2 ul.ui.list:first-child {
+  margin-top: -10px !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.affiliate-earnings
+  > div
+  > div.content
+  > div.month
+  > div.header {
+  text-align: right !important;
+}
+
+body .fhl-2020 .onboarding-checklist 
+  > .segment .ui.grid .item label {
+  color: #fff !important;
+}
+
+body .fhl-2020 .onboarding-checklist 
+  > .segment .ui.grid .item a label {
+  color: #3f8fe8 !important;
+  font-weight: bold !important;
+}
+
+body .fhl-2020 .onboarding-checklist 
+  > .segment .ui.grid .header {
+  color: #fff !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.onboarding-checklist
+  > div
+  > div
+  > div.ten.wide.column
+  > div.ui.blue.progress
+  > div
+  > div {
+  color: rgba(255, 255, 255, 0.801) !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.funnel-sales
+  > div
+  > div.ui.header
+  > div
+  > div
+  > div.right.floated.right.aligned.column.cf-icon-container {
+  margin-top: -5px !important;
+}
+
+body
+  > div.cf-main
+  > div
+  > div
+  > div.second.column
+  > div.funnel-sales
+  > div
+  > div.ui.grid.stats-number {
+  margin-top: -28px !important;
+}

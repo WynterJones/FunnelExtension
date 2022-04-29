@@ -1,0 +1,38 @@
+#cf-layout-standard 
+  > div 
+  > div {
+  padding: 0 !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div
+  > div
+  > div.middle.aligned.column.ten.wide
+  > h1 {
+  color: #fff;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div
+  > div
+  > div.middle.aligned.column.ten.wide
+  > div
+  > a {
+  transition: all ease-in-out 0.2s !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div
+  > div
+  > div.middle.aligned.column.ten.wide
+  > div
+  > a:hover {
+  box-shadow: 0 0 0 3px #2d80d5, 0 5px 15px 3px #2d81d5b6 !important;
+  transform: scale(1.02) !important;
+}

@@ -1,0 +1,72 @@
+#cf-layout-standard
+  > div
+  > div
+  > div
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > h2 {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div {
+  padding: 20px !important;
+  padding-top: 10px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div 
+  > div:nth-child(1) 
+  > div:nth-child(1) {
+  padding: 0 !important;
+}
+
+#cf-layout-standard > div > div > div > div.ui.hidden.divider,
+#cf-layout-standard > div > div > div > div:nth-child(2),
+#cf-layout-standard > div > div > div > div:nth-child(5) {
+  display: none !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div 
+  > div.two.column.row,
+body .ui.grid > [class*="two column"].row > .column {
+  width: 100% !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div 
+  > div.two.column.row 
+  > div {
+  padding: 0 !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div
+  > div:nth-child(1)
+  > div:nth-child(2)
+  > div
+  > a {
+  position: absolute !important;
+  top: -83px !important;
+  right: -18px !important;
+  z-index: 999 !important;
+  width: 220px !important;
+  font-size: 16px !important;
+}
+
+body 
+  > div.cf-main 
+  > div 
+  > div.ui.blue.inverted.top.attached.segment {
+  height: 56px !important;
+}

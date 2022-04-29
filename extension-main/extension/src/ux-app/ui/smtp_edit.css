@@ -1,0 +1,32 @@
+#cf-layout-standard 
+  > div 
+  > div 
+  > div:nth-child(1) 
+  > div {
+  padding: 0 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div:nth-child(2) {
+  padding: 0 !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+  margin-top: 25px !important;
+  color: #000 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div:nth-child(1) 
+  > div 
+  > h1 {
+  margin-bottom: 5px !important;
+}
+
+body .webhook-setup td label {
+  margin-bottom: 5px !important;
+  display: block !important;
+}

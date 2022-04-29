@@ -1,0 +1,130 @@
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #1e242b !important;
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div
+  > div
+  > form
+  > div.field.ui.flex.spaced.item-center
+  > p
+  > a {
+  color: #1454b4 !important;
+}
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #161b20 !important;
+}
+
+body .layout-sidenav .ui.inverted.list {
+  background: #0e1114 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4 {
+  color: #fff !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4
+  > i {
+  display: none !important;
+}
+
+#funnels,
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div
+  > div
+  > form {
+  padding: 15px !important;
+  background: #171B20 !important;
+  border-radius: 4px !important;
+  color: #000 !important;
+  margin-top: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div
+  > div
+  > h4 {
+  margin-bottom: 5px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div
+  > div
+  > form {
+  margin-top: -5px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.ui.header.layout-topnav.top.attached.dark.blue.background.no-margin
+  > div.extra.content.ui.spaced.right.middle.aligned {
+  display: none !important;
+}
+
+#lumen-two-body 
+  > div.ui.layout.container 
+  > div.layout-grid.ui.grid.no-margin 
+  > div.layout-main-content.column.white.background.nine.wide 
+  > div 
+  > div 
+  > form 
+  > div:nth-child(n+0) 
+  > label {
+  color: #fff !important;
+}
+
+#lumen-two-body 
+  > div.ui.layout.container 
+  > div.layout-grid.ui.grid.no-margin 
+  > div.layout-main-content.column.white.background.nine.wide 
+  > div 
+  > div 
+  > form 
+  > div.field.ui.flex.spaced.item-center 
+  > p {
+  color: #fff !important;
+}
+
+#funnels 
+  > thead 
+  > tr 
+  > th:nth-child(n+0) 
+  > span {
+  color: #fff !important;
+}
+
+#funnels 
+  > tbody 
+  > tr:nth-child(n+0) {
+  background: #0E1114 !important;
+  color: #fff !important;
+}

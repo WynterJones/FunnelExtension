@@ -1,0 +1,287 @@
+#lumen-two-body 
+  > div.ui.container {
+  padding: 40px 120px !important;
+}
+
+body .ui.container:not(#cfFlashMessages) {
+  background: none !important;
+  box-shadow: none !important;
+  padding: 10px !important;
+  color: #fff !important;
+  margin-top: 0 !important;
+}
+
+#lumen-two-body
+  > div:nth-child(8)
+  > div.ui.grid
+  > div:nth-child(2)
+  > div
+  > div
+  > h1,
+.ui.table:not(.calendar) tr a {
+  color: #fff !important;
+}
+
+body .ui.secondary.menu .item,
+body .ui.pagination.menu .item {
+  color: #fff !important;
+}
+
+.ui.table:not(.calendar).raised tbody tr {
+  background: #0e1114 !important;
+  border: 1px solid #242d36 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* all top columsn of funnel in list view */
+#funnels-view-wrapper 
+  > table 
+  > thead 
+  > tr 
+  > th:nth-child(n + 0) {
+  color: #fff !important;
+}
+
+/* funnel type column */
+#funnels-view-wrapper
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td:nth-child(2)
+  > div {
+  color: #fff !important;
+}
+
+/* card view of funnels */
+#funnels-view-wrapper
+  > div.ui.cards.four.doubling.flex.justify-left.padded-top
+  > div:nth-child(n + 0)
+  > div {
+  background: #141b22 !important;
+}
+
+#funnels-view-wrapper
+  > div.ui.cards.four.doubling.flex.justify-left.padded-top
+  > div:nth-child(n + 0)
+  > div
+  > div.ui.flex.justify-space-between
+  > div.section.middle.aligned.slate.text {
+  color: #fff !important;
+}
+
+/*archived funnels */
+#funnels-view-wrapper
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td:nth-child(n + 0)
+  > div {
+  color: #fff !important;
+}
+
+#funnels-view-wrapper
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td.right.aligned
+  > a {
+  background: #e8edf1 none !important;
+  border: 1px solid #a3b7c7 !important;
+  color: #295266 !important;
+}
+
+#funnels-view-wrapper
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a:nth-child(n + 0):hover {
+  background: #141b22 !important;
+}
+
+#funnels-view-wrapper
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a:nth-child(n + 0)
+  > i {
+  color: #fff !important;
+}
+
+#funnels-view-wrapper
+  > div.ui.cards.four.flex.justify-left.padded-top
+  > div:nth-child(n + 0)
+  > div {
+  background: #141b22 !important;
+}
+
+#funnels-view-wrapper
+  > div.ui.cards.four.flex.justify-left.padded-top
+  > div:nth-child(n + 0)
+  > div
+  > p.ui.light.slate.text {
+  color: #fff !important;
+}
+
+#funnels-view-wrapper
+  > div.ui.cards.four.flex.justify-left.padded-top
+  > div:nth-child(n + 0)
+  > div
+  > p:nth-child(5)
+  > span:nth-child(n + 0) {
+  color: #fff !important;
+}
+
+#funnels-view-wrapper
+  > div.ui.cards.four.flex.justify-left.padded-top
+  > div:nth-child(n + 0)
+  > div
+  > div:nth-child(7)
+  > div
+  > a {
+  color: #fff !important;
+  border: #fff !important;
+  background: #202e3b !important;
+}
+
+#funnels-view-wrapper
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td:nth-child(2)
+  > div {
+  color: #fff !important;
+}
+
+#funnels-view-wrapper
+  > div.ui.cards.four.doubling.flex.justify-left.padded-top
+  > div:nth-child(n + 0)
+  > div
+  > div.ui.two.column.grid
+  > div.column.five.wide
+  > div {
+  color: #141b22 !important;
+}
+
+#funnels-view-wrapper
+  > div.ui.cards.four.flex.justify-left.padded-top
+  > div:nth-child(n + 0)
+  > div
+  > div.ui.two.column.grid
+  > div.column.five.wide
+  > div {
+  color: #141b22 !important;
+}
+
+#funnels-view-wrapper
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td:nth-child(1)
+  > div {
+  color: #141b22 !important;
+}
+
+#funnels-view-wrapper 
+  > table 
+  > thead 
+  > tr 
+  > th:nth-child(3) {
+  color: #fff !important;
+}
+
+#lumen-two-body 
+  > div.ui.container {
+  padding: 40px 120px !important;
+}
+
+body .ui.container:not(#cfFlashMessages) {
+  background: none !important;
+  box-shadow: none !important;
+  padding: 10px !important;
+  color: #fff !important;
+  margin-top: 0 !important;
+}
+
+#lumen-two-body
+  > div:nth-child(8)
+  > div.ui.grid
+  > div:nth-child(2)
+  > div
+  > div
+  > h1,
+.ui.table:not(.calendar) tr a {
+  color: #fff !important;
+}
+
+body .ui.secondary.menu .item,
+body .ui.pagination.menu .item {
+  color: #fff !important;
+}
+
+.ui.table:not(.calendar).raised tbody tr {
+  background: #0e1114 !important;
+  border: 1px solid #242d36 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+body #funnels-view-wrapper {
+  background: #151b21 !important;
+  border-radius: 4px !important;
+  padding: 30px !important;
+  margin-top: -10px !important;
+}
+
+body .ui.table:not(.calendar).sortable .no-sort {
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div:nth-child(8)
+  > div.ui.grid
+  > div.eight.wide.column.middle.aligned
+  > div.ui.flex.justify-flex-end.item-center.spaced
+  > div
+  > div
+  > a {
+  font-weight: bold !important;
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div:nth-child(8)
+  > div.ui.grid
+  > div:nth-child(2)
+  > div
+  > div
+  > h1 {
+  font-size: 36px !important;
+}
+
+#lumen-two-body
+  > div:nth-child(8)
+  > div.ui.grid
+  > div:nth-child(6)
+  > form
+  > div
+  > div.field.middle.aligned.ui.spaced
+  > div
+  .button {
+  font-size: 1rem;
+  padding: 8px !important;
+}
+
+#lumen-two-body
+  > div:nth-child(8)
+  > div.ui.grid
+  > div:nth-child(6)
+  > form
+  > div
+  > div.field.middle.aligned.ui.spaced
+  > div
+  .button.active
+  i {
+  color: #fff !important;
+}

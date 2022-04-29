@@ -1,0 +1,128 @@
+#cf-layout-standard
+  > div
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div.twelve.wide.column
+  > h2 {
+  color: #fff !important;
+  margin-bottom: 10px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div.four.wide.column
+  > a {
+  position: absolute !important;
+  top: -75px !important;
+  right: 0 !important;
+  z-index: 999 !important;
+  width: 220px !important;
+}
+
+body #cf-layout-standard {
+  max-width: 991px !important;
+}
+
+body table.ui.table tbody td {
+  max-width: 288px !important;
+}
+
+#cf-layout-standard > div > div.ui.hidden.divider,
+#cf-layout-standard > div > div:nth-child(1) > div:nth-child(2) {
+  display: none !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div:nth-child(n+0) 
+  > div 
+  > div 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) {
+  color: #fff !important;
+  background: #0E1114 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div:nth-child(n+0) 
+  > div 
+  > div 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(n+0) 
+  > strong 
+  > a {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div:nth-child(n+0) 
+  > div 
+  > div 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(n+0) 
+  > form 
+  > a 
+  > div 
+  > label {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div:nth-child(n+0) 
+  > div 
+  > div 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(n+0) 
+  > em {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div:nth-child(n+0) 
+  > div 
+  > div 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(n+0) {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div:nth-child(3) 
+  > div 
+  > div 
+  > table 
+  > thead 
+  > tr 
+  > th.six.wide {
+  color: #fff !important;
+  background: #171B20 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div:nth-child(n+0) 
+  > div 
+  > div 
+  > table 
+  > thead 
+  > tr 
+  > th:nth-child(n+0) {
+  color: #fff !important;
+  background: #171B20 !important;
+}

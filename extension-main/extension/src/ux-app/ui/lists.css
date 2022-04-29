@@ -1,0 +1,211 @@
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div:nth-child(2) {
+  margin: 10px 0 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #161b20 !important;
+}
+
+body .layout-sidenav .ui.inverted.list {
+  background: #0e1114 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.header
+  > i {
+  display: none !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.header
+  > div {
+  padding: 0 !important;
+}
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.header {
+  margin-top: 10px !important;
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.accordion
+  > div.content.active
+  > div
+  > div
+  > div {
+  width: 100% !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.dimmable
+  > div.ui.dimmer.inverted {
+  background: #fff !important;
+}
+
+#lists-table > div > div {
+  background: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.header
+  > div.extra.content.right.middle.aligned
+  > a {
+  position: absolute !important;
+  top: -50px !important;
+  right: 7px !important;
+  padding: 12px 10px !important;
+  font-size: 16px !important;
+  color: #432811 !important;
+  border-color: #cc9818;
+  background-color: #ffcb0e !important;
+  border-radius: 4px !important;
+  z-index: 999 !important;
+  width: 150px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form {
+  margin-bottom: 15px !important;
+  margin-top: -15px !important;
+}
+
+/* deal with table */
+
+#lists-table 
+  > div 
+  > div {
+  background: #161B20 !important;
+}
+
+#lists-table 
+  > div 
+  > div 
+  > div.title.active {
+  color: #fff !important;
+}
+
+#lists-table 
+  > div 
+  > div 
+  > div:nth-child(n+0) {
+  color: #fff !important;
+}
+
+table 
+  > thead 
+  > tr 
+  > th:nth-child(n+0) 
+  > span 
+  > span {
+  color: #fff !important;
+}
+
+table 
+  > thead 
+  > tr 
+  > th.list-header.no-sort 
+  > span {
+  color: #fff !important;
+}
+
+table 
+  > thead 
+  > tr 
+  > th:nth-child(6) 
+  > span {
+  color: #fff !important;
+}
+
+table 
+  > tbody 
+  > tr 
+  > td:nth-child(n+0) 
+  > div 
+  > div 
+  > div 
+  > a {
+  color: #fff !important;
+}
+
+table 
+  > tbody 
+  > tr 
+  > td:nth-child(n+0) 
+  > div 
+  > div 
+  > p:nth-child(n+0) {
+  color: #fff !important;
+}
+
+table 
+  > tbody 
+  > tr 
+  > td:nth-child(n+0) 
+  > span {
+  color: #fff !important;
+}
+
+table 
+  > tbody 
+  > tr:nth-child(n+1) 
+  > td:nth-child(6) 
+  > a {
+  color: #fff !important;
+}
+
+table 
+  > tbody 
+  > tr:nth-child(n+1) 
+  > td:nth-child(6) 
+  > a:hover {
+  background: #1454B4 !important;
+}
+
+table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(n+0) 
+  > div 
+  > div 
+  > p.extra.text.blue.dark {
+  color: #fff !important;
+}
+
+#lists-table 
+  > div 
+  > div {
+  color: #fff !important;
+}
+
+#lists-table 
+  > div {
+  background: #283642 !important;
+}

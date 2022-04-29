@@ -1,0 +1,325 @@
+/* (ours) Notifications */
+
+.tfe_notification_wrapper {
+  padding: 20px;
+  background: #222;
+  box-shadow: 0 0 0 2px #ccc;
+  border: 2px solid #000;
+  border-bottom: 3px solid #000;
+  color: #fff;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  font-size: 15px;
+  position: relative;
+  padding-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+  text-align-last: left;
+}
+
+.tfe_notification_wrapper * {
+  font-family: Proxima-Soft !important;
+  letter-spacing: 0 !important;
+  font-weight: normal;
+}
+
+.tfe_notification_wrapper strong {
+  font-weight: bold;
+}
+.tfe_notification_wrapper p {
+  margin: 0;
+}
+
+.tfe_notification_badge {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px 10px;
+  border-top-right-radius: 10px;
+  background: #000;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.tfe_notification_badge:hover {
+  background: #2568a6;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Quick Edit Button */
+
+.tfe_quickAddFunnelStep * {
+  cursor: pointer;
+}
+
+/* Main Toggle Button */
+
+#tfe_togglebutton {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  width: 230px;
+  background: #000;
+  padding: 6px;
+  color: #fff;
+  border-top-right-radius: 5px;
+  z-index: 999999999999;
+}
+
+.tfe_togglebutton_progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background: #bed2e4;
+}
+
+.tfe_togglebutton_progress.startAnimatingWidth {
+  animation: animate_width_100 1s ease forwards;
+}
+
+@keyframes animate_width_100 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+#tfe_togglebutton_freebie_badge {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 230px;
+  padding: 1px;
+  color: rgb(155, 155, 155);
+  background: #000;
+  z-index: 999999999999;
+}
+#tfe_togglebutton_freebie_badge a {
+  color: rgb(221, 221, 221);
+  font-weight: bold;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: normal;
+}
+
+#tfe_togglebutton div {
+  float: left;
+  width: 50%;
+}
+
+#tfe_togglebutton div:last-child {
+  padding-left: 3px;
+}
+
+#tfe_togglebutton div:first-child {
+  padding-right: 3px;
+}
+
+#tfe_togglebutton span {
+  padding: 6px;
+  width: 100%;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+#tfe_togglebutton span i {
+  margin-right: 5px;
+}
+
+#tfe_togglebutton span:hover,
+#tfe_togglebutton span.tfe_togglebutton_active {
+  background: #2974e0;
+}
+
+#tfe_togglebutton.startAnimatingShakeyShake {
+  /* animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both; */
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/* Domain Walkthrough */
+#tfe_domainWalkthrough {
+  display: flex;
+  padding-top: 30px;
+}
+
+#tfe_domainWalkthrough > div {
+  flex: 50%;
+  padding-right: 10px;
+}
+
+#tfe_domainWalkthrough ul {
+  margin: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#tfe_domainWalkthrough ul li {
+  padding: 6px 12px;
+  font-weight: bold;
+  margin: 0;
+  border-radius: 5px;
+  background: rgb(255 248 231) !important;
+  color: #a07521;
+  margin-bottom: 5px;
+}
+
+#tfe_domainWalkthrough ul li span {
+  opacity: 0.4;
+}
+
+#tfe_domainWalkthrough > div:last-child {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+#tfe_domainWalkthrough .ui.card {
+  width: 100%;
+  padding: 40px;
+  height: 480px;
+  transition: all 0.1s ease-in-out;
+}
+
+#tfe_domainWalkthrough .ui.card:hover {
+  box-shadow: 0 0 0 3px #2d80d5, 0 5px 15px 3px #2d81d5b6 !important;
+  transform: scale(1.02) !important;
+
+  cursor: pointer;
+}
+
+.tfe_wiki_explainer {
+  background: #fafafa;
+  border: 1px solid #eee;
+  color: #666;
+  font-size: 14px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.tfe_wiki_explainer h6 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.tfe_wiki_explainer h6 small {
+  opacity: 0.5;
+  margin-left: 10px;
+}
+
+.tfe_cfdoc {
+  padding: 15px;
+  border-radius: 5px;
+  background: #fbfcfe;
+  color: #5f6779;
+  border: 1px solid #dfe3ec;
+  border-left: 4px solid #dfe3ec;
+}
+
+.tfe_cfdoc h4 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.tfe_cfdoc a {
+  display: block;
+  font-size: 15px;
+}
+
+#tfe_domainWalkthrough_selectProvider {
+  padding-top: 15px;
+  display: flex;
+}
+
+#tfe_domainWalkthrough_selectProvider > div {
+  flex: 50%;
+  padding-right: 10px;
+}
+
+#tfe_domainWalkthrough_selectProvider .ui.card {
+  padding: 20px !important;
+  width: 182px;
+}
+
+#tfe_domainWalkthrough_selectProvider .ui.card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#tfe_domainWalkthrough_selectProvider h1 {
+  font-size: 15px;
+  color: #000;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#tfe_domainWalkthrough_selectProvider .tfe_helpbutton {
+  padding: 10px 15px;
+  background: #1d71bc;
+  border: 1px solid #1864a7;
+  border-bottom: 2px solid #1864a7;
+  color: #fff;
+  border-radius: 5px !important;
+}
+
+#tfe_domainWalkthrough_selectProvider .tfe_helpbutton:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #1867ac;
+}
+
+#tfe_domain_validator {
+  padding: 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 10px 0;
+  background: #fafafa;
+  color: #555;
+}
+
+#tfe_domainWalkthrough_selectProvider_title {
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+#tfe_select_sub_domain,
+#tfe_select_root_domain {
+  color: #000;
+}

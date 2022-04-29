@@ -1,0 +1,129 @@
+#cf-layout-standard 
+  > div 
+  > div:nth-child(3) {
+  padding: 30px !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+  margin: 0 !important;
+}
+
+#chargedesk {
+  padding: 0 !important;
+  margin-bottom: 15px !important;
+  color: #000 !important;
+}
+
+body .ui.secondary.pointing.menu .item {
+  border-radius: 4px !important;
+  color: rgb(109, 135, 158) !important;
+  background: #1f242b !important;
+  padding: 10px 14px !important;
+  border: none !important;
+  margin-right: 5px !important;
+}
+body .ui.secondary.pointing.menu .active.item {
+  border-radius: 4px !important;
+  color: #222 !important;
+  background: #fff !important;
+  padding: 10px 14px !important;
+  border: none !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div:nth-child(1) 
+  > div:nth-child(2) {
+  margin-top: -20px !important;
+}
+
+body .subscription-box {
+  padding: 0 !important;
+}
+
+#subscription-description {
+  padding: 75px !important;
+  line-height: 1.7em !important;
+}
+
+#cf-layout-standard
+  > div
+  > div:nth-child(3)
+  > div.twelve.wide.column
+  > table
+  > tbody
+  > tr:nth-child(1)
+  > th {
+  font-size: 26px !important;
+  padding: 20px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.message.compact.warning {
+  width: 100% !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div:nth-child(3) 
+  > div.twelve.wide.column {
+  width: 542px !important;
+}
+#cf-layout-standard 
+  > div 
+  > div:nth-child(3) 
+  > div.four.wide.column {
+  width: 350px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div:nth-child(6) {
+  display: none !important;
+}
+
+body #manage-subscription {
+  background: #1f58a9 !important;
+  border-radius: 4px;
+  padding: 5px;
+  padding-bottom: 0;
+}
+
+#cf-layout-standard 
+  > div 
+  > table {
+  margin-top: -10px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > table {
+  padding: 20px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > table td br {
+  margin-bottom: 10px !important;
+  display: block !important;
+}
+
+#cf-layout-standard
+  > div
+  > div:nth-child(3)
+  > div.four.wide.column
+  > div
+  > div
+  > div {
+  background: #1f58a9 !important;
+  border: 1px solid #16498f !important;
+}
+
+#cf-layout-standard
+  > div
+  > div:nth-child(3)
+  > div.four.wide.column
+  > div
+  > div {
+  width: 100% !important;
+}

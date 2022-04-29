@@ -1,0 +1,40 @@
+#cf-layout-standard 
+  > div 
+  > h2 {
+  color: #fff !important;
+  margin-bottom: 30px !important;
+}
+
+body .ui.tabular.menu .item {
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+body .ui.tabular.menu .item.active {
+  color: #222 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.bottom.attached.tab.segment.active 
+  > p {
+  color: rgb(66, 66, 66) !important;
+}
+
+#cf-layout-standard
+  > div
+  > div.ui.bottom.attached.tab.segment.active
+  > form
+  > div {
+  margin-bottom: 15px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div.ui.bottom.attached.tab.segment.active
+  > form
+  > div
+  > label {
+  margin-bottom: 20px !important;
+  display: block !important;
+}

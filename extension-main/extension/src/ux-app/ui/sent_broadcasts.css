@@ -1,0 +1,187 @@
+#cf-layout-standard
+  > div
+  > div.ui.basic.tabular.segment.cf-layout-standard-row
+  > div
+  > div
+  > div:nth-child(2)
+  > a {
+  position: absolute !important;
+  top: -52px !important;
+  right: 3px !important;
+  z-index: 999 !important;
+  width: 220px !important;
+  font-size: 16px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div.ui.basic.tabular.segment.cf-layout-standard-row {
+  background: none !important;
+  margin-top: -24px !important;
+  padding: 0 22px !important;
+  padding-right: 50px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div.ui.basic.tabular.segment.cf-layout-standard-row
+  > div
+  > div
+  > div:nth-child(1)
+  > h2 {
+  color: #fff !important;
+  padding-top: 10px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div {
+  padding-top: 0 !important;
+  margin-top: -10px !important;
+}
+
+body .ui.tabular.segment.basic:after {
+  display: none !important;
+}
+
+body .ui.tabular.segment.basic .row .tabular.menu 
+  > a.item {
+  border-radius: 4px !important;
+  margin-left: 5px !important;
+  padding: 10px !important;
+  height: 40px !important;
+  border: 1px solid rgb(51, 51, 51) !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div 
+  > div:nth-child(n+0) 
+  > div.title.active {
+  color: #fff !important;
+  background: #171B20 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div > div 
+  > div:nth-child(n+0) 
+  > div.table.content.active 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) {
+  color: #fff !important;
+  background: #0E1114 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div 
+  > div:nth-child(n+0) {
+  color: #fff !important;
+  background: #0E1114 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div 
+  > div:nth-child(n+0) 
+  > div.table.content.active 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(1) 
+  > div 
+  > div 
+  > div.content 
+  > a {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div 
+  > div:nth-child(n+0) 
+  > div.table.content.active 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(n+0) 
+  > span {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div 
+  > div:nth-child(n+0) 
+  > div.table.content.active 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(n+0) {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div 
+  > div:nth-child(n+0) 
+  > div.title {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div 
+  > div:nth-child(n+0) 
+  > div.title 
+  > i {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div 
+  > div:nth-child(n+0) 
+  > div.table.content.active 
+  > table 
+  > thead 
+  > tr 
+  > th.grey.bold.text.title {
+  color: #fff !important;
+  background: #0E1114 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div 
+  > div 
+  > div:nth-child(n+0) 
+  > div.table.content.active 
+  > table 
+  > thead 
+  > tr 
+  > th:nth-child(n+0) {
+  color: #fff !important;
+  background: #0E1114 !important;
+}

@@ -1,0 +1,43 @@
+#cf-layout-standard
+  > div
+  > div
+  > div
+  > div.eleven.wide.column.cf-actionetics-integration-list {
+  width: 100% !important;
+  padding: 15px !important;
+}
+
+.cf-actionetics-item-sidebar-container {
+  display: none !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div
+  > div.eleven.wide.column.cf-actionetics-integration-list
+  > form
+  > div:nth-child(4) {
+  margin-bottom: 15px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div
+  > div.eleven.wide.column.cf-actionetics-integration-list
+  > form {
+  padding: 30px !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+  color: #000 !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div
+  > div.eleven.wide.column.cf-actionetics-integration-list
+  > div {
+  margin-bottom: 5px !important;
+}

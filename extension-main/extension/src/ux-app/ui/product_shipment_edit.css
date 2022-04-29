@@ -1,0 +1,8 @@
+#cf-layout-standard > div > div > div.two.column.row,
+#cf-layout-standard > div > div > div.two.column.row > div {
+  width: 100% !important;
+}
+
+form.simple_form.ui.form {
+  margin-top: -30px !important;
+}

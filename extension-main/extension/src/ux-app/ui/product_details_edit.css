@@ -1,0 +1,7 @@
+#cf-layout-standard 
+  > div 
+  > div 
+  > div.two.column.row 
+  > div:nth-child(1) {
+  width: 100% !important;
+}

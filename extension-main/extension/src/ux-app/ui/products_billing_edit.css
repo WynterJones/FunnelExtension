@@ -1,0 +1,14 @@
+#edit_funnel_steps_products_billings_form
+  > div.grouped.fields
+  > div.ui.grid
+  > div
+  > div:nth-child(1) {
+  width: 100% !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div:nth-child(3) {
+  padding-top: 0 !important;
+}

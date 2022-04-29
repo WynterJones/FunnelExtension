@@ -1,0 +1,56 @@
+#cf-layout-standard 
+  > div 
+  > h2 {
+  margin-bottom: 5px !important;
+}
+
+body #cf-available-integrations {
+  background: #161B20 !important;
+  margin: 0 !important;
+  margin-top: -31px !important;
+  padding: 30px !important;
+  border-bottom-right-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+}
+
+body #cf-layout-standard 
+  > div 
+  > div.ui.secondary.pointing.menu {
+  background: #161B20 !important;
+  margin: 0 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.blue.top.attached.tiny.inverted.segment {
+  margin-top: -10px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div.ui.blue.top.attached.tiny.inverted.segment
+  > div
+  > div
+  > div:nth-child(1) {
+  width: 478px !important;
+}
+
+body .ui.cards.cf-cards .card {
+  width: 207px !important;
+}
+
+
+
+#cf-available-integrations 
+  > a:nth-child(n+0) 
+  > div.content.cf-flex-no-grow {
+  background: #0E1114 !important;
+}
+
+#cf-available-integrations 
+  > a:nth-child(n+0) 
+  > div.content.cf-flex-no-grow 
+  > div {
+  color: #fff !important;
+  margin-top: 15px !important;
+}

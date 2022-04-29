@@ -1,0 +1,48 @@
+#cf-layout-standard > div > h1 {
+  color: #fff !important;
+}
+
+body .ui.divider {
+  display: none !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid.stackable {
+  padding: 20px !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+  margin: 0 !important;
+  margin-top: -10px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div.ui.grid.stackable
+  > div.eleven.wide.column
+  > div
+  > div {
+  padding: 0 !important;
+}
+
+#cf-layout-standard
+  > div
+  > div.ui.grid.stackable
+  > div.eleven.wide.column
+  > div
+  > div
+  > div.ui.compact.segment,
+#cf-layout-standard
+  > div
+  > div.ui.grid.stackable
+  > div.eleven.wide.column
+  > div
+  > div
+  > h5 {
+  display: none !important;
+}
+
+#edit_payment_gateway 
+  > br {
+  display: none !important;
+}

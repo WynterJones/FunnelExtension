@@ -1,0 +1,294 @@
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  color: #fff !important;
+}
+
+#commission-plans-table
+  > table
+  > tbody
+  > tr:nth-child(n + 0)
+  > td.ui.spaced.collapsing.right.aligned
+  > a.ui.button.small.link:hover {
+  background: #1454b4 !important;
+}
+
+#commission-plans-table
+  > div
+  > div.six.wide.column.center.aligned
+  > div
+  > a:nth-child(2):hover {
+  background: #1454b4 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form
+  > div
+  > div:nth-child(2)
+  > a {
+  color: #1454b4 !important;
+}
+
+/* Pop up */
+
+#commission_plan_modal 
+  > div 
+  > div.ui.header.modal-header.modal-remote {
+  background: #1e242b !important;
+  color: #fff !important;
+}
+
+#commission_plan_form 
+  > div.modal-content {
+  background: #1e242b !important;
+}
+
+#commission_plan_form
+  > div.modal-content
+  > div:nth-child(1)
+  > div
+  > div.field.required
+  > label {
+  color: #fff !important;
+}
+
+#commission_plan_form
+  > div.modal-content
+  > div:nth-child(1)
+  > div
+  > div:nth-child(2)
+  > label {
+  color: #fff !important;
+}
+
+#expire_commissions_checkbox_wrapper 
+  > label {
+  color: #fff !important;
+}
+
+#expire_commissions_wrapper 
+  > label {
+  color: #fff !important;
+}
+
+#expire_commissions_checkbox_wrapper 
+  > div 
+  > label {
+  color: #fff !important;
+}
+
+#commission_plan_form
+  > div.modal-content
+  > div:nth-child(3)
+  > div
+  > div:nth-child(1)
+  > label {
+  color: #fff !important;
+}
+
+#commission_plan_form
+  > div.modal-content
+  > div:nth-child(3)
+  > div
+  > div:nth-child(1)
+  > div
+  > label {
+  color: #fff !important;
+}
+
+#commission_plan_form
+  > div.modal-content
+  > div:nth-child(3)
+  > div
+  > div:nth-child(2)
+  > label {
+  color: #fff !important;
+}
+
+#commission_plan_form
+  > div.modal-content
+  > div:nth-child(3)
+  > div
+  > div:nth-child(2)
+  > div
+  > label {
+  color: #fff !important;
+}
+
+#commission_plan_modal 
+  > div {
+  background: #1e242b !important;
+}
+
+#commission_plan_form 
+  > div.modal-actions 
+  > button {
+  color: #fff !important;
+  background: #1454b4 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #161b20 !important;
+}
+
+body .layout-sidenav .ui.inverted.list {
+  background: #0e1114 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4 {
+  color: #fff !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > h4
+  > i {
+  display: none !important;
+}
+
+#commission-plans-table {
+  padding: 15px !important;
+  background: #0E1114 !important;
+  border-radius: 4px !important;
+  color: #000 !important;
+  margin-top: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.ui.header.layout-topnav.top.attached.dark.blue.background.no-margin
+  > div.extra.content.ui.spaced.right.middle.aligned {
+  display: none !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form
+  > div
+  > div:nth-child(2)
+  > a {
+  position: absolute;
+  top: -120px !important;
+  right: -8px !important;
+  font-size: 16px !important;
+  padding: 11px 24px !important;
+  border-color: rgb(204, 152, 24) !important;
+  color: rgb(67, 40, 17) !important;
+  background-color: rgb(255, 203, 14) !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > form
+  > div
+  > div:nth-child(2) {
+  margin: 0 !important;
+}
+
+#commission-plans-table 
+  > table 
+  > thead 
+  > tr 
+  > th:nth-child(1) 
+  > span {
+  color: #fff !important;
+}
+
+#commission-plans-table 
+  > table 
+  > thead 
+  > tr 
+  > th.right.aligned 
+  > span {
+  color: #fff !important;
+}
+
+#commission-plans-table 
+  > div 
+  > div:nth-child(1) 
+  > span {
+  color: #fff !important;
+}
+
+#commission-plans-table 
+  > div 
+  > div.three.wide.column.right.middle.aligned {
+  color: #fff !important;
+}
+
+#commission-plans-table 
+  > div 
+  > div.six.wide.column.center.aligned 
+  > div 
+  > a.active.item {
+  background: #32485A !important;
+  color: #fff !important;
+}
+
+#commission-plans-table 
+  > div 
+  > div.six.wide.column.center.aligned 
+  > div 
+  > a:nth-child(n+0) {
+  color: #fff !important;
+}
+
+#commission-plans-table 
+  > div 
+  > div.six.wide.column.center.aligned 
+  > div 
+  > a:nth-child(n+0):hover {
+  background: #1454B4 !important;
+}
+
+#commission-plans-table 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) {
+  background: #0E1114 !important;
+  color: #fff !important;
+}
+
+#commission-plans-table 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td.ui.spaced.collapsing.right.aligned 
+  > a.ui.button.small.link {
+  color: #fff !important;
+}
+
+#commission-plans-table 
+  > div 
+  > div:nth-child(1) 
+  > div 
+  > div.text {
+  color: #fff !important;
+}
+
+#commission-plans-table 
+  > div 
+  > div:nth-child(1) 
+  > div 
+  > i {
+  color: #fff !important;
+}

@@ -1,0 +1,711 @@
+{
+  "name": "The Funnel Extension",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "description": "The unofficial companion app to ClickFunnels that provides a better user experience.",
+  "homepage_url": "https://monetizedesign.com",
+  "icons": {
+    "16": "icons/16x16.png",
+    "48": "icons/48x48.png",
+    "128": "icons/128x128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "service_worker": "src/bg/background.html"
+  },
+  "browser_action": {
+    "default_icon": "icons/16x16.png",
+    "default_title": "FunnelExtension",
+    "default_popup": "src/popup/index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.clickfunnels.com/pages/*/editor_v2?*"],
+      "css": ["src/editor/inject.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/pages/*/editor_v2?*"],
+      "js": ["src/editor/inject.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/*"],
+      "css": ["src/ux-app/main.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/*"],
+      "css": ["src/ux-app/inject.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/affiliate_branding"],
+      "css": ["src/ux-app/ui/affiliate_branding.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/affiliates"],
+      "css": ["src/ux-app/ui/backpack_affiliates.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/contact_profiles"],
+      "css": ["src/ux-app/ui/contact_profiles.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/lists"],
+      "css": ["src/ux-app/ui/lists.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/lists/new",
+        "https://*.clickfunnels.com/lists/*/edit"
+      ],
+      "css": ["src/ux-app/ui/lists_new.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/lists/*"],
+      "css": ["src/ux-app/ui/lists_show.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/contact_profiles/*/memberships"],
+      "css": ["src/ux-app/ui/contacts_membership.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/contacts/overview/*"],
+      "css": ["src/ux-app/ui/contacts_overview.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/contact_profiles/*/purchases"],
+      "css": ["src/ux-app/ui/contacts_purchases.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/contact_profiles/*/subscribed_lists"
+      ],
+      "css": ["src/ux-app/ui/contacts_subscribed_lists.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/contact_profiles/*/broadcasts"],
+      "css": ["src/ux-app/ui/contacts_subscribed_lists.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/contact_profiles/*/action_funnels"
+      ],
+      "css": ["src/ux-app/ui/contacts_subscribed_lists.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/contact_profiles/*/memberships"],
+      "css": ["src/ux-app/ui/contacts_subscribed_lists.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/email_campaigns"],
+      "css": ["src/ux-app/ui/email_campaigns.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/email_campaigns"],
+      "js": ["src/ux-app/features/email_campaigns.js"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/sent_broadcasts"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/queued_broadcasts"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/draft_broadcasts"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/follow_up_funnels",
+        "https://*.clickfunnels.com/follow_up_funnels/*/steps"
+      ],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/broadcasts/new"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/broadcast_v2s/*/overview?v2=true"
+      ],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/broadcast_v2s/*/overview"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/broadcast_v2s/*/sent"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/broadcast_v2s/*/preview"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/broadcasts/*/overview"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/broadcasts/*/sent"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/follow_up_funnels/new",
+        "https://*.clickfunnels.com/follow_up_funnels/*/edit"
+      ],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/contacts/overview/*"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/contact_profiles/*"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/broadcasts/*/third_party_apps/*"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/users/edit/billing/*"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/account/audit_log"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/users/edit/templates"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/digital_assets"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/digital_assets/*"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/digital_assets"],
+      "css": ["src/ux-app/ui/digital_assets.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/digital_assets/new"],
+      "css": ["src/ux-app/ui/digital_assets.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/digital_assets/*/edit"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+
+    {
+      "matches": [
+        "https://*.clickfunnels.com/sent_broadcasts",
+        "https://*.clickfunnels.com/queued_broadcasts"
+      ],
+      "css": ["src/ux-app/ui/sent_broadcasts.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/draft_broadcasts"],
+      "css": ["src/ux-app/ui/draft_broadcasts.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/queued_broadcasts"],
+      "css": ["src/ux-app/ui/queued_broadcasts.css"]
+    },
+
+    {
+      "matches": [
+        "https://*.clickfunnels.com/broadcasts/*/overview",
+        "https://*.clickfunnels.com/broadcast_v2s/*/overview",
+        "https://*.clickfunnels.com/broadcast_v2s/*/overview?v2=true"
+      ],
+      "css": ["src/ux-app/ui/broadcast_overview.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/broadcast_v2s/*/sent"],
+      "css": ["src/ux-app/ui/broadcast_sent.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/broadcast_v2s/*/preview"],
+      "css": ["src/ux-app/ui/broadcast_preview.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/digital_assets/*/edit"],
+      "css": ["src/ux-app/ui/digital_assets.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/integrations",
+        "https://*.clickfunnels.com/integrations/*"
+      ],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/payment_gateways",
+        "https://*.clickfunnels.com/payment_gateways/*",
+        "https://*.clickfunnels.com/payment_gateways/*/edit",
+        "https://*.clickfunnels.com/stripe_accounts/*"
+      ],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/smtp_integrations",
+        "https://*.clickfunnels.com/smtp_integrations/*"
+      ],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/domains"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/domains/*"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/users/edit/userinfo"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/broadcasts/new"],
+      "css": ["src/ux-app/ui/new_broadcast.css"]
+    },
+
+    {
+      "matches": [
+        "https://*.clickfunnels.com/unsubscribes",
+        "https://*.clickfunnels.com/unsubscribes?*",
+        "https://*.clickfunnels.com/unsubscribes/bulk"
+      ],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/unsubscribes",
+        "https://*.clickfunnels.com/unsubscribes?*"
+      ],
+      "css": ["src/ux-app/ui/unsubscribes.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/unsubscribes/bulk"],
+      "css": ["src/ux-app/ui/unsubscribes_bulk.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/users/edit/templates"],
+      "css": ["src/ux-app/ui/asset_templates.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/domains"],
+      "css": ["src/ux-app/ui/domains.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/domains"],
+      "css": ["src/ux-app/ui/domains.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/domains/setup/new"],
+      "css": ["src/ux-app/ui/domain_new.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/domains/overview/*/edit"],
+      "css": ["src/ux-app/ui/domains_edit.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/domains/searches/new"],
+      "css": ["src/ux-app/ui/domain_search.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/domains/setup/existing"],
+      "css": ["src/ux-app/ui/domain_adding.css"]
+    },
+
+    {
+      "matches": [
+        "https://*.clickfunnels.com/stripe_accounts/*/edit",
+        "https://*.clickfunnels.com/stripe_accounts/*/connect"
+      ],
+      "css": ["src/ux-app/ui/stripe_accounts.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/smtp_integrations"],
+      "css": ["src/ux-app/ui/smtp_integrations.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/smtp_integrations/choose_new_type"
+      ],
+      "css": ["src/ux-app/ui/smtp_choose_new_type.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/smtp_integrations/new",
+        "https://*.clickfunnels.com/smtp_integrations/new?*"
+      ],
+      "css": ["src/ux-app/ui/smtp_new.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/smtp_integrations/*/edit"],
+      "css": ["src/ux-app/ui/smtp_new.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/account/details/show"],
+      "css": ["src/ux-app/ui/account_details.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/account/people"],
+      "css": ["src/ux-app/ui/account_people.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/notifications"],
+      "css": ["src/ux-app/ui/account_notifications.css"]
+    },
+
+    {
+      "matches": [
+        "https://*.clickfunnels.com/users/edit/billing/subscription",
+        "https://*.clickfunnels.com/users/edit/billing/payment",
+        "https://*.clickfunnels.com/users/edit/billing/history",
+        "https://*.clickfunnels.com/users/edit/billing/cancel"
+      ],
+      "css": ["src/ux-app/ui/account_billing.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/users/edit/billing/payment"],
+      "css": ["src/ux-app/ui/account_billing_payment.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/users/edit/billing/history"],
+      "css": ["src/ux-app/ui/account_billing_history.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/integrations"],
+      "css": ["src/ux-app/ui/integrations.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/integrations/*/edit"],
+      "css": ["src/ux-app/ui/integrations_edit.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/integrations/new",
+        "https://*.clickfunnels.com/integrations/new?*"
+      ],
+      "css": ["src/ux-app/ui/integrations_new.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/integrations/new/?i=*"],
+      "css": ["src/ux-app/ui/integrations_new_edit.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/payment_gateways"],
+      "css": ["src/ux-app/ui/payment_gateways.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/payment_gateways/*/edit"],
+      "css": ["src/ux-app/ui/payment_gateways_edit.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/payment_gateways/*"],
+      "css": ["src/ux-app/ui/payment_gateways_edit.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/account/audit_log"],
+      "css": ["src/ux-app/ui/account_history.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/*/steps/*/overview"],
+      "css": ["src/ux-app/ui/funnel_steps_overview.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/*/steps/*/overview"],
+      "css": ["src/ux-app/ui/ui_header_funnel_steps.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/members*"],
+      "css": ["src/ux-app/ui/ui_header_funnel_steps.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/*/edit"],
+      "css": ["src/ux-app/ui/ui_header_funnel_steps.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/*/steps/*"],
+      "css": ["src/ux-app/ui/ui_header_funnel_steps.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/*/steps/*"],
+      "css": ["src/ux-app/ui/ui_sidebar_funnel_steps.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/*/edit"],
+      "css": ["src/ux-app/ui/ui_sidebar_funnel_steps.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/members*"],
+      "css": ["src/ux-app/ui/ui_sidebar_funnel_steps.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/*/steps/*/products"],
+      "css": ["src/ux-app/ui/funnel_steps_products.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnel_steps/*/products/*"],
+      "css": ["src/ux-app/ui/funnel_steps_products.css"]
+    },
+
+    {
+      "matches": [
+        "https://*.clickfunnels.com/funnel_steps/*/products/*/billing/edit"
+      ],
+      "css": ["src/ux-app/ui/products_billing_edit.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnel_steps/*/billing/new?"],
+      "css": ["src/ux-app/ui/products_billing_new.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnel_steps/*/billing/new?"],
+      "css": ["src/ux-app/ui/funnel_steps_products.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/funnel_steps/*/products/*/fulfillment_email/edit"
+      ],
+      "css": ["src/ux-app/ui/product_fulfillment_edit.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/funnel_steps/*/products/*/follow_up_action/edit"
+      ],
+      "css": ["src/ux-app/ui/product_followup_edit.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/funnel_steps/*/products/*/shipment/edit"
+      ],
+      "css": ["src/ux-app/ui/product_shipment_edit.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/funnel_steps/*/products/*/shipment"
+      ],
+      "css": ["src/ux-app/ui/product_shipment_edit.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/funnel_steps/*/products/*/details/edit"
+      ],
+      "css": ["src/ux-app/ui/product_details_edit.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/funnel_steps/*/products/*/details"
+      ],
+      "css": ["src/ux-app/ui/product_details_edit.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/funnel_steps/*/products/*/variations/edit"
+      ],
+      "css": ["src/ux-app/ui/product_variations_edit.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/funnel_steps/*/products/*/variations"
+      ],
+      "css": ["src/ux-app/ui/product_variations_edit.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/follow_up_funnels"],
+      "css": ["src/ux-app/ui/follow_up_funnels.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/follow_up_funnels/new",
+        "https://*.clickfunnels.com/follow_up_funnels/*/edit"
+      ],
+      "css": ["src/ux-app/ui/follow_up_funnels_new.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/*/steps/*/automation"],
+      "css": ["src/ux-app/ui/funnel_steps_automation.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/funnels"],
+      "css": ["src/ux-app/ui/funnels.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels?*"],
+      "css": ["src/ux-app/ui/funnels.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/dashboard"],
+      "css": ["src/ux-app/ui/dashboard.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/dashboard?*"],
+      "css": ["src/ux-app/ui/dashboard.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/contact_purchases"],
+      "css": ["src/ux-app/ui/sales.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/contact_purchases/*"],
+      "css": ["src/ux-app/ui/sales.css"]
+    },
+
+    {
+      "matches": ["https://app.clickfunnels.com/users/sign_in"],
+      "css": ["src/ux-app/ui/login.css"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/*"],
+      "js": ["src/ux-app/inject.js"]
+    },
+
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/contact_purchases"],
+      "js": ["src/ux-app/features/sales.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/contact_purchases/*"],
+      "js": ["src/ux-app/features/salesSingle.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/*/steps/*/edit"],
+      "js": ["src/ux-app/features/hidePublishingOptions.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/*/steps/*"],
+      "js": ["src/ux-app/features/quickAddNewStep.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/*"],
+      "js": ["src/ux-app/features/mainToggle.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/dashboard"],
+      "js": ["src/ux-app/features/dashboard.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/dashboard?*"],
+      "js": ["src/ux-app/features/dashboard.js"]
+    },
+    {
+      "matches": ["https://app.clickfunnels.com/users/sign_in"],
+      "js": ["src/ux-app/features/login.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnel_steps/*/billing/new?"],
+      "js": ["src/ux-app/features/autoSelectPaymentGateway.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/domains/setup/existing"],
+      "js": ["src/ux-app/features/domainWalkthrough.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/domains/overview/*/edit"],
+      "js": ["src/ux-app/features/domainSettingsNotices.js"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/domains/registrations?domain_id=*&domain_name=*"
+      ],
+      "js": ["src/ux-app/features/domainAutoVerify.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/domains"],
+      "js": ["src/ux-app/features/domainListSecureVerify.js"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/affiliates"],
+      "css": ["src/ux-app/ui/bp_dashboard.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/affiliate_management"],
+      "css": ["src/ux-app/ui/bp_affiliates.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/affiliate_commissions"],
+      "css": ["src/ux-app/ui/bp_commissions.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/affiliate_payments"],
+      "css": ["src/ux-app/ui/bp_payments.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/commission_plans"],
+      "css": ["src/ux-app/ui/bp_commissionplans.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/affiliate_leaderboards?product_id=*"
+      ],
+      "css": ["src/ux-app/ui/bp_leaderboard.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/affiliate_types"],
+      "css": ["src/ux-app/ui/bp_affiliatetypes.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/affiliate_branding"],
+      "css": ["src/ux-app/ui/bp_settings.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/archived?*"],
+      "css": ["src/ux-app/ui/funnels_archived.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/funnels/marketplace?*"],
+      "css": ["src/ux-app/ui/funnels_marketplace.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/contact_profiles/new"],
+      "css": ["src/ux-app/ui/contact_profiles_new.css"]
+    },
+    {
+      "matches": [
+        "https://*.clickfunnels.com/cookbook?load_classic_builder=true"
+      ],
+      "css": ["src/ux-app/ui/cookbook.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/account/audit_log"],
+      "css": ["src/ux-app/ui/make_look_like_new_ui-settings.css"]
+    },
+    {
+      "matches": ["https://*.clickfunnels.com/*"],
+      "js": ["src/ux-app/features/removeTurboLinks.js"]
+    }
+  ],
+  "permissions": ["storage"]
+}

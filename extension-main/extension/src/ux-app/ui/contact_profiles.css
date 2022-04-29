@@ -1,0 +1,484 @@
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div:nth-child(2),
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div:nth-child(6) {
+  margin: 15px 0 !important;
+}
+/* 
+tbody tr.divided {
+  background: #141b22;
+  border: 1px solid #ccc !important;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #000 !important;
+} */
+
+#controller-data > div > div.scroller > div:nth-child(2) {
+  display: none !important;
+}
+
+/* center bit of page */
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #1e2e3c !important;
+}
+
+/* footer > results per page */
+#controller-data > div > div.ui.three.column.grid {
+  color: #000 !important;
+}
+
+/* Contact List title */
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div:nth-child(7)
+  > div.four.wide.column.middle.aligned
+  > div
+  > div
+  > div {
+  color: #000 !important;
+}
+
+/* Email in table */
+.ui.item > .content {
+  color: #000 !important;
+}
+
+/* My contacts title */
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.flex.justify-space-between.item-flex-end
+  > div:nth-child(1)
+  > h4 {
+  color: #000 !important;
+}
+
+/* name column title */
+#controller-data
+  > div
+  > div.scroller
+  > table
+  > thead
+  > tr
+  > th:nth-child(2)
+  > a {
+  color: #000 !important;
+}
+
+/* date crated column title */
+#controller-data
+  > div
+  > div.scroller
+  > table
+  > thead
+  > tr
+  > th.sorted.descending
+  > a {
+  color: #000 !important;
+}
+/* import button */
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.flex.justify-space-between.item-flex-end
+  > div:nth-child(2)
+  > div
+  > a:nth-child(1) {
+  color: #fff !important;
+  border: 1px solid #ccc !important;
+}
+
+/* download button */
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.flex.justify-space-between.item-flex-end
+  > div:nth-child(2)
+  > div
+  > a:nth-child(2) {
+  color: #fff !important;
+  border: 1px solid #ccc !important;
+}
+
+/* 3 top info boxs */
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div:nth-child(1),
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div:nth-child(2),
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div:nth-child(3) {
+  background: #1e2e3c !important;
+  color: #000 !important;
+}
+
+/* number in 3 top info boxs */
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div:nth-child(1)
+  > div
+  > div
+  > div
+  > p.bold.header,
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > p.bold.header,
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div:nth-child(3)
+  > div
+  > div
+  > div
+  > p.bold.header {
+  color: #000 !important;
+}
+
+#trContactProfile816334861 
+  > td:nth-child(2) 
+  > a 
+  > div 
+  > div {
+  color: #000 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide {
+  background: #161b20 !important;
+}
+
+body .layout-sidenav .ui.inverted.list {
+  background: #0e1114 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.flex.justify-space-between.item-flex-end
+  > div:nth-child(1)
+  > h4 {
+  color: #fff !important;
+  margin-top: 15px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.flex.justify-space-between.item-flex-end
+  > div:nth-child(1)
+  > h4
+  > i {
+  display: none !important;
+}
+
+#controller-data 
+  > div 
+  > div.scroller 
+  > table {
+  padding: 15px !important;
+  background: #fff !important;
+  border-radius: 4px !important;
+  color: #000 !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div:nth-child(7)
+  > div.four.wide.column.middle.aligned
+  > div
+  > div
+  > div {
+  color: #fff !important;
+}
+
+#controller-data 
+  > div 
+  > div.ui.three.column.grid {
+  margin-top: -10px !important;
+}
+
+#controller-data 
+  > div 
+  > div.ui.three.column.grid {
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.flex.justify-space-between.item-flex-end
+  > div:nth-child(2)
+  > div
+  > a.ui.button.secondary {
+  position: absolute !important;
+  top: -51px !important;
+  right: 7px !important;
+  padding: 12px 10px !important;
+  font-size: 16px !important;
+  color: #432811 !important;
+  border-color: #cc9818;
+  background-color: #ffcb0e !important;
+  border-radius: 4px !important;
+  z-index: 999 !important;
+  width: 240px !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div:nth-child(1),
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div:nth-child(2),
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div:nth-child(3) {
+  background: #0e1114 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div.ui.card
+  * {
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div.ui.card
+  p.bold.header {
+  font-size: 24px !important;
+  margin-bottom: 3px !important;
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div.ui.cards.three.flex
+  > div.ui.card
+  p {
+  font-size: 15px !important;
+  color: #fff !important;
+}
+
+#lumen-two-body
+  > div.ui.layout.container
+  > div.layout-grid.ui.grid.no-margin
+  > div.layout-main-content.column.white.background.nine.wide
+  > div:nth-child(3)
+  > div {
+  padding-top: 0 !important;
+}
+
+/* deal with table */
+#controller-data 
+  > div 
+  > div.scroller 
+  > table {
+  background: #171B20 !important;
+}
+
+#controller-data 
+  > div 
+  > div.scroller 
+  > table 
+  > thead 
+  > tr {
+  background: #0E1114 !important;
+}
+
+div#controller-data 
+  >div
+  >div
+  >table
+  >tbody
+  >tr:nth-of-type(n+0)
+  >td:nth-of-type(n+0) {
+  background: #0E1114 !important;
+}
+
+#controller-data 
+  > div 
+  > div.scroller 
+  > table 
+  > thead 
+  > tr 
+  > th:nth-child(n+0) 
+  > a {
+  color: #fff !important;
+}
+
+#controller-data 
+  > div 
+  > div.scroller 
+  > table 
+  > thead 
+  > tr 
+  > th:nth-child(2) {
+  color: #fff !important;
+}
+
+#controller-data 
+  > div 
+  > div.scroller 
+  > table 
+  > thead 
+  > tr 
+  > th.sorted.descending 
+  > a {
+  color: #fff !important;
+}
+
+#controller-data 
+  > div 
+  > div.scroller 
+  > table 
+  > thead 
+  > tr 
+  > th.sorted.descending {
+  color: #fff !important;
+}
+
+#controller-data 
+  > div 
+  > div.scroller 
+  > table 
+  > thead 
+  > tr 
+  > th.center.aligned.no-sort 
+  > span 
+  > span:nth-child(n+0) 
+  > i {
+  color: #fff !important;
+}
+
+td:nth-child(n+0) 
+  > a 
+  > div 
+  > div {
+  color: #fff !important;
+}
+
+td:nth-child(n+0) 
+  > a 
+  > div 
+  > p {
+  color: #fff !important;
+}
+
+td:nth-child(n+0) {
+  color: #fff !important;
+}
+
+td.center.aligned.collapsing 
+  > span:nth-child(n+0) {
+  color: #fff !important;
+}
+
+td:nth-child(14) 
+  > div {
+  color: #fff !important;
+}
+
+td:nth-child(14) 
+  > div:hover {
+  background: #1454B4 !important;
+}
+
+#lumen-two-body 
+  > div.ui.layout.container 
+  > div.layout-grid.ui.grid.no-margin 
+  > div.layout-main-content.column.white.background.nine.wide 
+  > div.ui.flex.justify-space-between.item-flex-end 
+  > div:nth-child(2) 
+  > div 
+  > a:nth-child(1):hover {
+  background: #1454B4 !important;
+}
+
+#lumen-two-body 
+  > div.ui.layout.container 
+  > div.layout-grid.ui.grid.no-margin 
+  > div.layout-main-content.column.white.background.nine.wide 
+  > div.ui.flex.justify-space-between.item-flex-end 
+  > div:nth-child(2) 
+  > div 
+  > a:nth-child(2):hover {
+  background: #1454B4 !important;
+}
+
+/* export pop up */
+#ContactProfilesExportButton {
+  background: #0E1114 !important;
+  color: #fff !important;
+  border: 2px solid #ccc !important;
+}
+
+#ContactProfilesExportButton 
+  > div.ui.header.modal-header 
+  > div 
+  > h5 {
+  color: #fff !important;
+}

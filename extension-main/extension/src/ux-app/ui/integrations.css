@@ -1,0 +1,73 @@
+#cf-layout-standard 
+  > div 
+  > div 
+  > div:nth-child(2) {
+  margin-top: -30px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > div:nth-child(2)
+  > a {
+  width: 240px !important;
+  position: absolute !important;
+  top: -74px !important;
+  right: -12px !important;
+  z-index: 999 !important;
+  font-size: 16px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > div:nth-child(1)
+  > p:nth-child(3) {
+  margin-bottom: 0 !important;
+  color: #fff !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div
+  > div.four.wide.column {
+  width: 598px !important;
+}
+
+#cf-integrations-table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td {
+  color: #fff !important;
+  background: #0E1114 !important;
+}
+
+#cf-integrations-table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td 
+  > div 
+  > div 
+  > div 
+  > a {
+  color: #fff !important;
+}
+
+#cf-integrations-table 
+  > thead 
+  > tr 
+  > th {
+  color: #fff !important;
+  background: #161B20 !important;
+}

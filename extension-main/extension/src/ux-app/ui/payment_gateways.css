@@ -1,0 +1,113 @@
+#cf-layout-standard
+  > div
+  > div.ui.grid
+  > div:nth-child(1)
+  > div
+  > div
+  > div:nth-child(2)
+  > a {
+  width: 270px !important;
+  position: absolute !important;
+  top: -74px !important;
+  right: -12px !important;
+  z-index: 999 !important;
+  font-size: 16px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div.ui.grid
+  > div:nth-child(1)
+  > div
+  > div
+  > div:nth-child(1)
+  > h2 {
+  margin-bottom: 5px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div.ui.grid
+  > div:nth-child(1)
+  > div
+  > div
+  > div:nth-child(1)
+  > p:nth-child(3) {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div:nth-child(2) 
+  > div {
+  padding: 30px !important;
+  background: #0E1114 !important;
+  border-radius: 4px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div:nth-child(2) {
+  padding: 0 15px !important;
+}
+
+body .ui.hidden.divider {
+  display: none !important;
+}
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div:nth-child(2) 
+  > div 
+  > table {
+  margin: 0 !important;
+}
+
+body .ui.basic.table td {
+  padding: 15px 5px !important;
+}
+
+body .ui.basic.table td a:first-child {
+  padding: 5px 8px;
+  background: #eee;
+  border-radius: 4px;
+  margin: 0 10px;
+}
+
+body .ui.basic.table td a:first-child i {
+  margin: 0;
+}
+
+body .ui.basic.table td a:last-child {
+  padding: 5px 8px;
+  background: #f6d6d6;
+  border: 1px solid #ce9b9b;
+  color: #a63b2c !important;
+  border-radius: 4px;
+  margin: 0;
+}
+
+body .ui.basic.table td a:last-child i {
+  margin: 0;
+}
+
+body .ui.basic.table td a:hover {
+  text-decoration: none;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid 
+  > div:nth-child(n+0) 
+  > div 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(n+0) {
+  color: #fff !important;
+  border-top : 1px solid #fff;
+  border-bottom : 1px solid #fff;
+  border-radius: 4px;
+}

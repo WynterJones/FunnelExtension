@@ -1,0 +1,237 @@
+/* body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock.hideSideDarkBar
+  > div.funnelViewInformation.clearfix
+  > div.row {
+  margin: 10px 35px !important;
+  background: #0e1114 !important;
+  border: none !important;
+  padding: 30px !important;
+  border-radius: 4px !important;
+  color: #ccc !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock.hideSideDarkBar
+  > div.funnelViewInformation.clearfix
+  > div.row
+  > div
+  > table {
+  margin-bottom: 0 !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock.hideSideDarkBar
+  > div.funnelViewInformation.clearfix
+  > div.row
+  > div
+  > h3 {
+  margin-top: 0 !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock.hideSideDarkBar
+  > div.funnelViewInformation.clearfix
+  > div.row
+  hr {
+  display: none !important;
+}
+
+.funnelStartSplitTestBlock.splitTestAddStart {
+  margin-top: 0 !important;
+  width: 577px !important;
+  min-height: 266px !important;
+  border-color: #1f242b !important;
+  color: #414750 !important;
+}
+
+body .funnelStartSplitTestHeadline {
+  color: #fff !important;
+}
+
+body .funnelStartSplitTestText {
+  color: #fff !important;
+}
+
+.funnelStartSplitTestBlock.splitTestAddStart .funnelStartSplitTestIcon i {
+  margin-top: 36px !important;
+}
+
+#\37 0222551_collapsable > div.row {
+  margin-top: -15px !important;
+}
+
+div.pageSectionInfo > div > div.col-sm-12 > div > span.form-control.edit-url {
+  font-size: 17px !important;
+  padding: 20px !important;
+  line-height: 2px !important;
+}
+
+.ui.segments {
+  border: none !important;
+}
+
+div > div.ui.attached.message {
+  display: none !important;
+}
+
+div > div.ui.card {
+  overflow: hidden !important;
+}
+
+.splitTestMiddle {
+  margin-top: 0 !important;
+}
+
+body .funnelViewInformation {
+  background: #161b20 !important;
+}
+
+body .funnelViewSidePanel {
+  background: #0e1114 !important;
+}
+
+body .funnelViewBlock {
+  background: #0e1114 !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock.hideSideDarkBar
+  > div.funnelViewInformation.clearfix
+  .funnelTopActionBar:after {
+  display: none !important;
+}
+
+body a.topPageTabs-item a {
+  border-radius: 4px !important;
+  margin-left: 5px !important;
+  padding: 10px !important;
+  height: 40px !important;
+  border: 1px solid rgb(51, 51, 51) !important;
+}
+
+body .funnelTopActionBar,
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock.hideSideDarkBar
+  > div.funnelViewInformation.clearfix
+  > div.funnelInfo.funnelInfoBottomBorder.funnelTopActionBar.clearfix
+  > div,
+body .topPagesTabWrap {
+  background: none !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock.hideSideDarkBar
+  > div.funnelViewInformation.clearfix
+  > div.funnelInfo.funnelInfoBottomBorder.funnelTopActionBar.clearfix
+  > div
+  > div
+  > div
+  > strong {
+  color: #fff !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock.hideSideDarkBar
+  > div.funnelViewInformation.clearfix
+  > div.funnelInfo.funnelInfoBottomBorder.funnelTopActionBar.clearfix
+  > div {
+  padding-top: 10px !important;
+}
+
+body
+  > div.main
+  > div.container
+  > div
+  > div.funnelViewBlock.hideSideDarkBar
+  > div.funnelViewInformation.clearfix
+  > div.row {
+  margin: 0px 25px !important;
+}
+
+body .footerFunnelActions .btn {
+  opacity: 1 !important;
+  color: #fff !important;
+  background: #0f1115 !important;
+  border: 1px solid #252933 !important;
+  box-shadow: none !important;
+}
+
+body .footerFunnelActions {
+  border: none !important;
+  padding-top: 0 !important;
+  margin-top: -10px !important;
+}
+
+body .funnelStartSplitTestButton a {
+  opacity: 0.3 !important;
+  background: none !important;
+  color: #fff !important;
+}
+
+body .funnelStartSplitTestBlock:hover a {
+  opacity: 1 !important;
+  background: #29ad7b !important;
+}
+
+#\37 0392201_collapsable > div.pageSectionInfo > div {
+  padding-top: 0 !important;
+}
+
+body .funnelStepPagesEditPage {
+  border-top: none;
+  background: #0e1114 !important;
+  padding: 5px;
+}
+
+body div > div.ui.card {
+  box-shadow: 0 0 0 2px #1f58a8, 0 0 10px #1f58a8 !important;
+}
+
+body
+  div
+  > div.ui.card
+  > div
+  > div.funnelStepPagesEditPage
+  > a.btn.btn-warning.openPageInEditor {
+  width: 158px !important;
+}
+
+body .funnelStartSplitTestBlock .funnelStartSplitTestText {
+  color: rgba(255, 255, 255, 0.788) !important;
+  margin-top: 5px !important;
+}
+
+body
+  div.pageSectionInfo
+  > div
+  > div.funnelStepPages.clearfix
+  > div.funnelStepPagesInner.clearfix
+  > div.col-sm-4.splitTestMiddle {
+  color: #fff !important;
+} */

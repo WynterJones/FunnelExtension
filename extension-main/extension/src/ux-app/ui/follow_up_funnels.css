@@ -1,0 +1,94 @@
+body #cf-layout-standard 
+  > div {
+  width: 98% !important;
+}
+
+body table.ui.table tbody td {
+  max-width: 365px !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > div:nth-child(2)
+  > a {
+  position: absolute !important;
+  top: -76px !important;
+  right: -30px !important;
+  z-index: 999 !important;
+  font-size: 16px !important;
+}
+
+table 
+  > tbody {
+  color: #fff !important;
+  background: #0E1114 !important;
+}
+
+#accordion--test 
+  > table 
+  > tbody 
+  > tr:nth-child(n+0):hover {
+  color: #fff !important;
+  background: #0E1114 !important;
+}
+
+table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(n+0) 
+  > div 
+  > div 
+  > div 
+  > a {
+  color: #fff !important;
+}
+
+table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(n+0) 
+  > span {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div:nth-child(n+0) 
+  > div 
+  > div:nth-child(n+0) 
+  > div.title.active {
+  color: #fff !important;
+  background: #0E1114 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div:nth-child(n+0) 
+  > div 
+  > div:nth-child(n+0) 
+  > div.title {
+  color: #fff !important;
+  background: #0E1114 !important;
+}
+
+table 
+  > thead 
+  > tr 
+  > th.left.aligned.step_name {
+  color: #fff !important;
+  background: #0E1114 !important;
+}
+
+table 
+  > thead 
+  > tr 
+  > th:nth-child(n+0) {
+  color: #fff !important;
+  background: #0E1114 !important;
+}

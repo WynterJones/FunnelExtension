@@ -1,0 +1,104 @@
+#audit_log_container {
+  border-radius: 4px !important;
+  padding: 30px !important;
+  background: #161B20 !important;
+}
+
+#audit_log_container .ui.menu.pagination {
+  margin-top: 10px !important;
+}
+
+body .ui.menu.pagination .item {
+  color: #1f58a9 !important;
+  background: rgb(236, 236, 236) !important;
+  border-radius: 4px !important;
+}
+
+body .ui.menu.pagination .item.active {
+  color: #fff !important;
+  background: #1f58a9 !important;
+  border-color: #1a509c !important;
+  border-radius: 4px !important;
+}
+
+body .pagination-per-page {
+  padding: 20px 0 !important;
+  padding-bottom: 10px !important;
+  color: #fff !important;
+  text-align: left !important;
+}
+
+#audit_log_container 
+  > div.ui.basic.center.aligned.segment {
+  padding: 0 !important;
+}
+body .ui.feed {
+  margin: 0 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div.ui.grid.basic.segment {
+  border-radius: 4px !important;
+  padding: 30px !important;
+  background: #0E1114 !important;
+  margin-bottom: 20px !important;
+}
+
+#account_audit_search_form h4 {
+  color: #222 !important;
+}
+
+#audit_log_clear_all {
+  margin-top: 35px !important;
+  display: block !important;
+  width: 100px !important;
+  position: absolute !important;
+  top: -54px !important;
+  right: -63px !important;
+  font-weight: bold !important;
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div {
+  width: 950px !important;
+}
+
+#account_audit_search_form 
+  > div 
+  > div:nth-child(n+0) 
+  > h4 {
+  color: #fff !important;
+}
+
+#account_audit_search_form 
+  > div 
+  > div:nth-child(n+0) 
+  > label {
+  color: #fff !important;
+}
+
+#audit_log_container 
+  > div.ui.feed.user.history 
+  > div:nth-child(n+0) 
+  > div.ui.segmented.funnel.items 
+  > div {
+  background: #0E1114 !important;
+}
+
+#audit_log_container 
+  > div.ui.feed.user.history 
+  > div:nth-child(n+0) 
+  > div.ui.segmented.funnel.items 
+  > div 
+  > div:nth-child(n+0) 
+  > p {
+  color: #fff !important;
+}
+
+#audit_log_container 
+  > div.ui.basic.center.aligned.segment 
+  > nav {
+  background: #0E1114 !important;
+}

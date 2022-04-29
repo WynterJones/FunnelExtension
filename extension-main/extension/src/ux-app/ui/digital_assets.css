@@ -1,0 +1,132 @@
+#cf-layout-standard
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > div:nth-child(2)
+  > div
+  > a {
+  width: 200px !important;
+  position: absolute !important;
+  top: -74px !important;
+  right: -12px !important;
+  z-index: 999 !important;
+  font-size: 16px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div:nth-child(1) 
+  > div 
+  > div {
+  display: block !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > div:nth-child(1)
+  > p:nth-child(3) {
+  color: rgba(255, 255, 255, 0.712) !important;
+  letter-spacing: 0 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div:nth-child(2) {
+  padding-top: 0 !important;
+}
+
+#cf-layout-standard
+  > div
+  > div
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div
+  > div.four.wide.column {
+  width: 62% !important;
+}
+
+body .ui.tiny.header br {
+  display: none !important;
+}
+
+body i.blue.icon {
+  color: #465768 !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > h2 {
+  color: #fff !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div.fourteen.wide.column {
+  width: 100% !important;
+  border-radius: 4px !important;
+  background: #fff !important;
+  padding: 30px !important;
+  margin: 18px !important;
+}
+
+#cf-layout-standard 
+  > div 
+  > div 
+  > div.fourteen.wide.column .ui.form .field {
+  margin-bottom: 20px !important;
+}
+
+#cf-digital-assets-table 
+  > tbody 
+  > tr:nth-child(n+0) {
+  background: #0E1114 !important;
+  color: #fff !important;
+}
+
+#cf-digital-assets-table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td.six.wide 
+  > div {
+  color: #fff !important;
+}
+
+#cf-digital-assets-table 
+  > tbody 
+  > tr:nth-child(n+0) 
+  > td:nth-child(n+0) {
+  color: #fff !important;
+}
+
+#cf-digital-assets-table 
+  > thead 
+  > tr 
+  > th.six.wide {
+  background: #161B20 !important;
+}
+
+#cf-digital-assets-table 
+  > thead 
+  > tr 
+  > th.collapsing {
+  background: #161B20 !important;
+}
+
+#cf-digital-assets-table 
+  > thead 
+  > tr 
+  > th:nth-child(n+0) {
+  background: #161B20 !important;
+  color: #fff !important;
+}
